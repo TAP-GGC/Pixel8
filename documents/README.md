@@ -1,0 +1,1 @@
+The documents folder will be used to organize the documents produced by your team that are related to your workshop. This includes publications, tutorial guides, and other document type materials needed.
