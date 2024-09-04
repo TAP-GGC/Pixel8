@@ -2,17 +2,16 @@
 <!-- This section is where you will replace the link to your transparent logo, the title of your project, and the very short desciptor of your project -->
 <!-- If you used Canva to make your icon and don't want to pay for a background remover, you can use the website https://www.remove.bg/ to do so -->
 <p align="center">
-  <img alt="Template Logo" src="https://github.com/jvalram/project-template/blob/main/media/logo/Transparent%20Version.png" width="" height="350" />
-  <h1 align="center">Project Template (Example: A Game that Emphasizes the Importance of Programming Statements)</h1>
-  <p align="center">A project for ... by team ... </p>
+  <img alt="Template Logo" src="https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Binary_Maze_Light_Mode-removebg-preview.png" width="" height="350" />
+  <h1 align="center">Using Interactive Game to Teach Binary Instruction by Pixel 8</h1>
 </p>
 <!-- the emojis are not set in stone! If you'd like you can remove them entirely or select your own from https://gist.github.com/rxaviers/7360908 you are welcome to -->
 
 ## :loudspeaker: About
-The objective of the workshop is  ...
+The objective of this project is to teach students about all things binary-related such as converting binary to decimal, reading and writing RGB, and teaching about hex code.
 <!-- You can look at other TAP projects if you need a better idea of how to describe your workshops objectives -->
 
-This workshop has participants do ...
+This workshop will have students play an interactive game that will allow students to go through a maze to collect pieces for a puzzle by answering binary questions through input, buttons, etc. The goal of the game to collect all the pieces to get the correct puzzle. 
 
 ## :bulb: Project Information
 <!-- 
@@ -42,7 +41,7 @@ You can select from a range of audiences or a single auidience. Examples:
 
 <!-- videos can also be dragged and dropped into markdown files if you want them embedded -->
 
-## :pencil2: Team: Team Name
+## :pencil2: Team: Pixel8
 
 <!-- Use the team photo of your choice once youve uploaded it to the team photo folder within the media folder -->
 <img alt="art featuring batman, wonder woman, and superman" src = "media/team photos/Team Photo.JPG" width="" height="300">
@@ -50,7 +49,7 @@ You can select from a range of audiences or a single auidience. Examples:
 > (From left to right: Batman,  Wonder Woman, Superman.)
 <!-- replace with full names of your team members -->
 
-* Team Member 1
+* Shianne Lesure 🌺
 * Team Member 2
 * Team Member 3
 * Team Member 4
