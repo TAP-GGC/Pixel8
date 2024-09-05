@@ -81,15 +81,11 @@ Example:
 If you're interested in more workshops that utilize Scratch, check out [Space Mechanic](https://github.com/TAP-GGC/NinjaTurtles)!
 
 ## :computer: Technology
-<i> Replace Scratch with whatever technology you're using and make sure to have a logo of that technology uploaded to the technology folder within the media folder. </i>
-<!-- be sure to use the alt text feature in case anybody viewing your repo is using  screen reader! you want your workshop to be as accessible as possible -->
-<p align="center">
-  <img alt="Scratch Logo" src = "media/technology/scratch logo.png" width="200" height="200"/>
-</p>
 
-* [Scratch](https://scratch.mit.edu/) is a block-based programming language developed by the MIT Media Lab as an education tool for children to learn computing in a fun and interactive way.
-* Scratch has drag-and-drop interfaces. Unlike text-based programming language like Java or C where you physically type every line of code, in Scratch, you can drag and drop pre-made codes and organize them into an algorithm. It's like solving a jigsaw puzzle!
-* Explain why your team chose this technology for this workshop.
+* ZEP is a web-based metaverse platform that allows users to create customizable virtual spaces for purposes such as events, education, or remote work.
+* It provides a variety of free templates, from offices to escape rooms, and lets users add objects, design interactive experiences, and manage events in real time.
+* ZEP supports features like live Q&A, quizzes, and Google Analytics integration, making it suitable for business and educational settings.
+* Built with web technologies like JavaScript and HTML5, it enables real-time collaboration and interactive environments directly through the browser​
 
 <p align="center">
 <img src = "media/technology/block-based language.png" width ="400" height="200">
@@ -98,35 +94,27 @@ If you're interested in more workshops that utilize Scratch, check out [Space Me
 ## Project Setup/Installation 
 <i> This section is dedicated to linking to .md files in your documents/tutorial/ folder that will contain instructions on installation
 
-Your repo doesn't have to have every section used below. This is just an example so you can get an idea of what your own repo should look like</i>
+</i>
+
+The Project does not have an installation to use this project go to https://zep.us/, create an account, and use the room code that will be provided later.
 
 ### Opening a blank Scratch page 
-[Click here to view instructions](/Documents/tutorial/Opening%20a%20blank%20Scratch%20page.md)
-
-[Video with Scratch instructions](https://youtu.be/v-GUbj7DMEE)
+* TBA
 
 <!-- if your project uses scratch, you can reuse any of these instructions (be sure to include CS First alternatives) -->
 ## CS First Installation Walkthrough
-[Click here to view instructions](/Documents/tutorial/CS%20FIRST/CS%20First%20Walkthrough.md)
+* TBA
 
 ### Getting to the game 
-[Click here to view instructions](/Documents/tutorial/Getting%20to%20the%20Game.md)
+* TBA
 
 ## Usage
-<i> Describe HOW to use your game. </i> 
-Example: 
-1. Press the Left arrow key to move to the left.
-2. Press the Right arrow key to move to the right.
-3. Press the Up arrow key to move up.
-4. Press the Down arrow key to move down.
-5. You may also replace the arrow keys with a Makey Makey. 
+* TBA 
 
 ## Short Demo Instructions 
-[Demo Video on how to install and play our game](https://youtu.be/mA80Aa55t-U)
+* TBA
 
 ## Workshop Instructions 
-[Click here to view workshop walkthrough pdf file](/Documents/tutorial/Scratch%20Workshop%20Walkthrough.pdf)
-
-[Our Game Workshop Video](https://youtu.be/Mtsre0iMStM)
+* TBA
 
 
