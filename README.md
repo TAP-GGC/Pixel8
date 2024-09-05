@@ -15,14 +15,14 @@ This workshop will have students play an interactive game that will allow studen
 
 ## :bulb: Project Information
 <!-- 
-Your Options for target audience: 
+Your Options for Target Audience: 
   - High School
   - College
   - Middle School
   - K-12
   - Non-Stem
   - Undergraduate
-You can select from a range of audiences or a single auidience. Examples: 
+You can select from a range of audiences or a single audience. Examples: 
     Middle School - College 
     High School - College
     K-12
@@ -43,21 +43,21 @@ You can select from a range of audiences or a single auidience. Examples:
 
 ## :pencil2: Team: Pixel8
 
-<!-- Use the team photo of your choice once youve uploaded it to the team photo folder within the media folder -->
+<!-- Use the team photo of your choice once you've uploaded it to the team photo folder within the media folder -->
 <img alt="art featuring batman, wonder woman, and superman" src = "media/team photos/Team Photo.JPG" width="" height="300">
 
 > (From left to right: Batman,  Wonder Woman, Superman.)
 <!-- replace with full names of your team members -->
 
 * Shianne Lesure 🌺
-* Team Member 2
+* Zuberi Thompson
 * Team Member 3
 * Team Member 4
 
 ## :mortar_board: Advisors
 <!-- name of the two professors overseeing your TAP class -->
-* Dr. John Doe
-* Dr. Jane Doe
+* Dr. Cengiz Gunay
+* Dr. Cindy Robertson
 
 
 ## :page_with_curl: Project Description
