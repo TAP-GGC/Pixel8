@@ -65,7 +65,7 @@ A more thorough description of your project. Not a full walkthrough, but describ
 
 ## :memo: Publications
 <!-- team members, then professors/advisors. "Name of Publication", event, month and day, year, Georgia Gwinnett College. -->
-1. Team Member, Team Member, Team Member, John Doe, Jane Doe. "A Real Fake Workshop", Fake Event, April 1, 2024, Georgia Gwinnett College.  
+<!--1. Team Member, Team Member, Team Member, John Doe, Jane Doe. "A Real Fake Workshop", Fake Event, April 1, 2024, Georgia Gwinnett College. -->
 
 ## :open_hands: Outreach
 <i>List the outreach events your team has participated in. </i>
@@ -86,6 +86,12 @@ If you're interested in more workshops that utilize Scratch, check out [Space Me
 * It provides a variety of free templates, from offices to escape rooms, and lets users add objects, design interactive experiences, and manage events in real time.
 * ZEP supports features like live Q&A, quizzes, and Google Analytics integration, making it suitable for business and educational settings.
 * Built with web technologies like JavaScript and HTML5, it enables real-time collaboration and interactive environments directly through the browser​
+* Unity is a popular cross-platform game engine used for developing 2D, 3D, AR, VR and simulation-based projects.
+* Godot is an open-source game engine used for developing both 2D and 3D games. It's known for being beginner-friendly while offering advanced features for experienced developers.
+* <Websites>
+* ZEP: https://zep.us/en/home/spaces
+* Unity: https://unity.com
+* Godot: https://godotengine.org
 
 </p>
 
