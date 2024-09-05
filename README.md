@@ -1,5 +1,5 @@
 <!-- height or width of logo may be adjusted -->
-<!-- This section is where you will replace the link to your transparent logo, the title of your project, and the very short desciptor of your project -->
+<!-- This section is where you will replace the link to your transparent logo, the title of your project, and the very short description of your project -->
 <!-- If you used Canva to make your icon and don't want to pay for a background remover, you can use the website https://www.remove.bg/ to do so -->
 <p align="center">
   <img alt="Template Logo" src="https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Binary_Maze_Light_Mode-removebg-preview.png" width="" height="350" />
@@ -9,7 +9,7 @@
 
 ## :loudspeaker: About
 The objective of this project is to teach students about all things binary-related such as converting binary to decimal, reading and writing RGB, and teaching about hex code.
-<!-- You can look at other TAP projects if you need a better idea of how to describe your workshops objectives -->
+<!-- You can look at other TAP projects if you need a better idea of how to describe your workshop objectives -->
 
 This workshop will have students play an interactive game that will allow students to go through a maze to collect pieces for a puzzle by answering binary questions through input, buttons, etc. The goal of the game to collect all the pieces to get the correct puzzle. 
 
@@ -32,7 +32,7 @@ You can select from a range of audiences or a single audience. Examples:
 * <b>Target Audience:</b> Middle School - College
 * <b>Duration of Workshop:</b> 1 hour 
 * <b>Needed Materials:</b> Computer with internet access! (A mouse for convenience)
-* <b>Learning Outcomes:</b> The primary goal of this project is to teach participants how to read and write binary, hexadecimals and decimals.
+* <b>Learning Outcomes:</b> The primary goal of this project is to teach participants how to read and write binary, hexadecimals, and decimals.
 * <b>Our Main Technology</b> :  Unity, Godot or ZEP. TBD
 * [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their fellow classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 <!-- Commercial Video stored in the Media folder will be linked here -->
@@ -83,15 +83,18 @@ If you're interested in more workshops that utilize Scratch, check out [Space Me
 ## :computer: Technology
 
 * ZEP is a web-based metaverse platform that allows users to create customizable virtual spaces for purposes such as events, education, or remote work.
-* It provides a variety of free templates, from offices to escape rooms, and lets users add objects, design interactive experiences, and manage events in real time.
+* It provides a variety of free templates, from offices to escape rooms, and lets users add objects, design interactive experiences, and manage events in real-time.
 * ZEP supports features like live Q&A, quizzes, and Google Analytics integration, making it suitable for business and educational settings.
 * Built with web technologies like JavaScript and HTML5, it enables real-time collaboration and interactive environments directly through the browser​
 * Unity is a popular cross-platform game engine used for developing 2D, 3D, AR, VR and simulation-based projects.
 * Godot is an open-source game engine used for developing both 2D and 3D games. It's known for being beginner-friendly while offering advanced features for experienced developers.
-* <Websites>
-* ZEP: https://zep.us/en/home/spaces
-* Unity: https://unity.com
-* Godot: https://godotengine.org
+
+<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/Zep-Logo.png" width="200" height="100"> 
+ZEP: https://zep.us/en/home/spaces
+<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/Unity-Logo.png" width="200" height="100">
+ Unity: https://unity.com
+<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/Godot-Logo.png" width="200" height="80">
+ Godot: https://godotengine.org
 
 </p>
 
@@ -105,7 +108,7 @@ The Project does not have an installation to use this project go to https://zep.
 ### Opening a blank Scratch page 
 * TBA
 
-<!-- if your project uses scratch, you can reuse any of these instructions (be sure to include CS First alternatives) -->
+<!-- If your project uses scratch, you can reuse any of these instructions (be sure to include CS First alternatives) -->
 ## CS First Installation Walkthrough
 * TBA
 
