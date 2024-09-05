@@ -87,8 +87,6 @@ If you're interested in more workshops that utilize Scratch, check out [Space Me
 * ZEP supports features like live Q&A, quizzes, and Google Analytics integration, making it suitable for business and educational settings.
 * Built with web technologies like JavaScript and HTML5, it enables real-time collaboration and interactive environments directly through the browser​
 
-<p align="center">
-<img src = "media/technology/block-based language.png" width ="400" height="200">
 </p>
 
 ## Project Setup/Installation 
