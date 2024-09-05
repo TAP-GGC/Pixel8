@@ -51,7 +51,7 @@ You can select from a range of audiences or a single audience. Examples:
 
 * Shianne Lesure 🌺
 * Zuberi Thompson
-* Team Member 3
+* Seohyeon Kim
 * Team Member 4
 
 ## :mortar_board: Advisors
