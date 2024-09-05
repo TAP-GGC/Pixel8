@@ -61,7 +61,7 @@ You can select from a range of audiences or a single audience. Examples:
 
 
 ## :page_with_curl: Project Description
-A more thorough description of your project. Not a full walkthrough, but describe the different sections of your project and the gist of what participants will be doing when interacting with it and what they'll learn.
+The objective of this project is to teach students about binary-related topics, such as converting binary to decimal, reading and writing RGB values, and understanding hex codes. The workshop will feature an interactive game in which students navigate through a maze to collect puzzle pieces by answering binary-related questions through inputs, buttons, and other interactive elements. Players will face challenges of increasing difficulty as they progress, reinforcing their understanding of binary concepts. Along the way, hints and explanations will be provided to help students grasp more complex ideas and complete the puzzle correctly.
 
 ## :memo: Publications
 <!-- team members, then professors/advisors. "Name of Publication", event, month and day, year, Georgia Gwinnett College. -->
