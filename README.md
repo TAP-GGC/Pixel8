@@ -28,12 +28,12 @@ You can select from a range of audiences or a single audience. Examples:
     K-12
   You will be presenting most often to your peers who are taking introductory technology classes, so more often than not you should be including college in your target audience range. 
 -->
-* <b>Difficulty Level:</b> Choose your workshop difficulty (Beginner/Intermediate/Advanced)
-* <b>Target Audience:</b> K12 - College (edit .md file to view all options presented in the markdown comments)
-* <b>Duration of Workshop:</b> How long your workshop takes (1 hour, 30 minutes, etc.) 
-* <b>Needed Materials:</b> Materials needed to do your workshop (computer with keyboard)
-* <b>Learning Outcomes:</b> The primary goal of this project is to teach participants how to understand and write binary.
-* <b>Our Main Technology</b> :  ZEP
+* <b>Difficulty Level:</b> Beginner & Intermediate
+* <b>Target Audience:</b> Middle School - College
+* <b>Duration of Workshop:</b> 1 hour 
+* <b>Needed Materials:</b> Computer with internet access! (A mouse for convenience)
+* <b>Learning Outcomes:</b> The primary goal of this project is to teach participants how to read and write binary, hexadecimals and decimals.
+* <b>Our Main Technology</b> :  Unity, Godot or ZEP. TBD
 * [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their fellow classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
@@ -52,7 +52,7 @@ You can select from a range of audiences or a single audience. Examples:
 * Shianne Lesure 🌺
 * Zuberi Thompson
 * Seohyeon Kim
-* Team Member 4
+* Celeste Echols
 
 ## :mortar_board: Advisors
 <!-- name of the two professors overseeing your TAP class -->
@@ -61,7 +61,7 @@ You can select from a range of audiences or a single audience. Examples:
 
 
 ## :page_with_curl: Project Description
-A more thorough description of your project. Not a full walkthrough, but describe the different sections of your project and the gist of what participants will be doing when interacting with it and what they'll learn.
+The objective of this project is to teach students about binary-related topics, such as converting binary to decimal, reading and writing RGB values, and understanding hex codes. The workshop will feature an interactive game in which students navigate through a maze to collect puzzle pieces by answering binary-related questions through inputs, buttons, and other interactive elements. Players will face challenges of increasing difficulty as they progress, reinforcing their understanding of binary concepts. Along the way, hints and explanations will be provided to help students grasp more complex ideas and complete the puzzle correctly.
 
 ## :memo: Publications
 <!-- team members, then professors/advisors. "Name of Publication", event, month and day, year, Georgia Gwinnett College. -->
