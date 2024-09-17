@@ -14,12 +14,17 @@ public class QuestionTrigger : MonoBehaviour
 
     private bool playerInTrigger = false;  // Track if the player is in the trigger area
 
+    public LogicScript logic; // The script that display the score
+
     private void Start()
     {
         // Initially hide the question and feedback
         questionText.text = "";
         feedbackText.text = "";
         submitButton.onClick.AddListener(CheckAnswer);  // Add listener to submit button
+
+        // will find the prefab that has logic script attach to it.
+        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
 
     }
 
@@ -55,6 +60,7 @@ public class QuestionTrigger : MonoBehaviour
                 feedbackText.text = "Correct!";
                 // Destroy the parent TriggerSquare and the BlockerSquare child
                 Destroy(gameObject);  // This will destroy both the trigger and the blocking square (as it's a child)
+                logic.addScore(); // will update score when answered correctly
             }
             else
             {
