@@ -1262,10 +1262,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 136345013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d41947bc47669f4f95eec73296f79b7, type: 3}
+  m_Script: {fileID: 11500000, guid: d76f5a18927c5b144adae8da28959b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerScore: 1
+  playerScore: 0
+  scoreText: {fileID: 1675709262}
 --- !u!1 &390220180
 GameObject:
   m_ObjectHideFlags: 0
@@ -4386,7 +4387,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score: 11'
+  m_Text: 'Score: 0'
 --- !u!222 &1675709263
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6439,36 +6440,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2102464979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba8beab467be1954aaa1e70f62064176, type: 3}
+  m_Script: {fileID: 11500000, guid: d76f5a18927c5b144adae8da28959b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeScore:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 355584355}
-        m_TargetAssemblyTypeName: QuestionScore, Assembly-CSharp
-        m_MethodName: AllocateScore
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ScoreUI, Assembly-CSharp
-        m_MethodName: UpdateScore
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: ScoreCount, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  playerScore: 0
+  scoreText: {fileID: 1675709262}
 --- !u!1 &2133820475
 GameObject:
   m_ObjectHideFlags: 0
