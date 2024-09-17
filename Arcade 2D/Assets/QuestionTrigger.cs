@@ -20,6 +20,7 @@ public class QuestionTrigger : MonoBehaviour
         questionText.text = "";
         feedbackText.text = "";
         submitButton.onClick.AddListener(CheckAnswer);  // Add listener to submit button
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
