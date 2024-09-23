@@ -6,7 +6,7 @@ using System;
 
 public class Timer : MonoBehaviour
 {
-    bool stopWatchActive = false;
+    //bool stopWatchActive = false;
     float currentTime;
     public Text currentTimeText;
 
@@ -16,29 +16,32 @@ public class Timer : MonoBehaviour
         currentTime = 0;
     }
 
-    /*
+    
     // Update is called once per frame
     void Update()
     {
-        
+        /*
         if(stopWatchActive == true)
         {
             currentTime = currentTime + Time.deltaTime;
         }
+        */
         currentTime = currentTime + Time.deltaTime;
         TimeSpan time = TimeSpan.FromSeconds(currentTime);
         currentTimeText.text = time.ToString(@"mm\:ss");
     }
-    */
+    
 
+    /*
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
             stopWatchActive = true;
-            //currentTime = currentTime + Time.deltaTime;
+            currentTime = currentTime + Time.deltaTime;
             TimeSpan time = TimeSpan.FromSeconds(currentTime);
             currentTimeText.text = time.ToString(@"mm\:ss");
         }
     }
+    */
 }
