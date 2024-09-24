@@ -14,6 +14,6 @@ public class LogicScript : MonoBehaviour
     public void addScore()
     {
         playerScore++;
-        scoreText.text = "Score: " + playerScore.ToString();
+        scoreText.text = "Questions: " + playerScore.ToString() + " / 8";
     }
 }
