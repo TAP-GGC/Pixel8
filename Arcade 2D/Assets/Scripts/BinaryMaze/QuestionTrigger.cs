@@ -21,6 +21,7 @@ public class QuestionTrigger : MonoBehaviour
         // Initially hide the question and feedback
         questionText.text = "";
         feedbackText.text = "";
+        submitButton.enabled = false;
         submitButton.onClick.AddListener(CheckAnswer);  // Add listener to submit button
 
         // will find the prefab that has logic script attach to it.
@@ -32,6 +33,7 @@ public class QuestionTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            submitButton.enabled = true;
             questionText.text = question;  // Show the question
             feedbackText.text = "";        // Clear previous feedback
             playerInTrigger = true;
@@ -42,6 +44,7 @@ public class QuestionTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            submitButton.enabled = false;
             questionText.text = "";        // Hide the question
             feedbackText.text = "";        // Hide feedback
             answerInput.text = "";         // Clear input field
