@@ -23,7 +23,14 @@ public class QuestionTrigger : MonoBehaviour
         // Initially hide the question and feedback
         questionText.text = "";
         feedbackText.text = "";
-        submitButton.enabled = false;
+       // submitButton.interactable = false;
+       /*
+        submitButton = GameObject.FindGameObjectWithTag("SubmitButton").GetComponent<Button>();
+        if(submitButton != null)
+        {
+            submitButton.gameObject.SetActive(false);
+        }
+       */
         submitButton.onClick.AddListener(CheckAnswer);  // Add listener to submit button
         // will find the prefab that has logic script attach to it.
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
@@ -32,18 +39,19 @@ public class QuestionTrigger : MonoBehaviour
         {
           panel.enabled = false;
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            submitButton.enabled = true;
+            //submitButton.enabled = true;
+            //submitButton.gameObject.SetActive(true);
             questionText.text = question;  // Show the question
             feedbackText.text = "";        // Clear previous feedback
             playerInTrigger = true;
             panel.OnEnable();
+            //submitButton.gameObject.SetActive(true);
         }
     }
 
@@ -51,12 +59,14 @@ public class QuestionTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            submitButton.enabled = false;
+            //submitButton.enabled = false;
+            //submitButton.gameObject.SetActive(false);
             questionText.text = "";        // Hide the question
             feedbackText.text = "";        // Hide feedback
             answerInput.text = "";         // Clear input field
             playerInTrigger = false;
             panel.OnDisable();
+            //submitButton.gameObject.SetActive(false);
         }
     }
 

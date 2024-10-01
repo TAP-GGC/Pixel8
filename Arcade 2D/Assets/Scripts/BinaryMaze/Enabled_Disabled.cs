@@ -5,7 +5,8 @@ using UnityEngine;
 public class Enabled_Disabled : MonoBehaviour
 {
     public GameObject questionPanel;
-    
+
+   
     public void OnDisable()
     {
         this.questionPanel.SetActive(false);
