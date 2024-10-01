@@ -16,6 +16,8 @@ public class QuestionTrigger : MonoBehaviour
 
     public LogicScript logic; // The script that display the score
 
+    public Enabled_Disabled panel;
+
     private void Start()
     {
         // Initially hide the question and feedback
@@ -23,9 +25,13 @@ public class QuestionTrigger : MonoBehaviour
         feedbackText.text = "";
         submitButton.enabled = false;
         submitButton.onClick.AddListener(CheckAnswer);  // Add listener to submit button
-
         // will find the prefab that has logic script attach to it.
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+        panel = GameObject.FindGameObjectWithTag("QuestionPanel").GetComponent<Enabled_Disabled>();
+        if(panel != null)
+        {
+          panel.enabled = false;
+        }
 
     }
 
@@ -37,6 +43,7 @@ public class QuestionTrigger : MonoBehaviour
             questionText.text = question;  // Show the question
             feedbackText.text = "";        // Clear previous feedback
             playerInTrigger = true;
+            panel.OnEnable();
         }
     }
 
@@ -49,6 +56,7 @@ public class QuestionTrigger : MonoBehaviour
             feedbackText.text = "";        // Hide feedback
             answerInput.text = "";         // Clear input field
             playerInTrigger = false;
+            panel.OnDisable();
         }
     }
 
