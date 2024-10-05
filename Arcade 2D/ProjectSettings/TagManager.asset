@@ -7,6 +7,7 @@ TagManager:
   - Logic
   - QuestionPanel
   - SubmitButton
+  - LevelComplete
   layers:
   - Default
   - TransparentFX
