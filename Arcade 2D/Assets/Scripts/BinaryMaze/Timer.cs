@@ -35,11 +35,11 @@ public class Timer : MonoBehaviour
             currentTimeText.text = time.ToString(@"mm\:ss");
             saveTimeData(currentTimeText);
 
-            if (currentTime >= 120) // Example: if the timer reaches 60 seconds
+            if (currentTime >= 40) // Example: if the timer reaches 60 seconds
             {
                 GameOver();
             }
-        }
+        } 
         /*
         if (stopWatchActive == true)
         {
@@ -55,6 +55,7 @@ public class Timer : MonoBehaviour
     public void StopTime()
     {
         stopWatchActive = false;
+        Time.timeScale = 0f;
     }
 
     public void saveTimeData(Text current)
@@ -72,20 +73,22 @@ public class Timer : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 2)
         {
+
             // Load the saved time and set it in the UI element
             float savedTime = PlayerPrefs.GetFloat("Time1"); // Default to 0 if no data is found
             string savedTimeText = PlayerPrefs.GetString("Time1Text"); // Default format
 
             currentTime = savedTime; // Restore the saved current time
             levelTime.text = "Time: " + savedTimeText; // Display the saved time
+   
+            if(savedTime > 0)
+            {
+                StopTime();
+            }
             PlayerPrefs.DeleteAll();
-          
-
-            //stopWatchActive = false;
-
             //levelTime.text = "Time: " + PlayerPrefs.GetString("Time1Text");
             //stopWatchActive = false;
-            
+
         }
     }
 
