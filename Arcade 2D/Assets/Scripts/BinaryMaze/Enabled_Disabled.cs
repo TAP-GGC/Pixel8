@@ -11,25 +11,37 @@ public class Enabled_Disabled : MonoBehaviour
    
     public void OnDisable()
     {
-        this.questionPanel.SetActive(false);
+        if (this.questionPanel != null) 
+        {
+            this.questionPanel.SetActive(false);
+        }
     }
 
     public void OnEnable()
     {
-        this.questionPanel.SetActive(true);
+        if (this.questionPanel != null)
+        {
+            this.questionPanel.SetActive(true);
+        }
     }
 
     public void EnableLevelComplete()
     {
-        this.levelCompleteScreen.SetActive(true);
+        if (this.levelCompleteScreen != null)
+        {
+            this.levelCompleteScreen.SetActive(true);
+        }
     }
 
     public void DisableLevelComplete()
     {
-        this.levelCompleteScreen.SetActive(false);
+        if (this.levelCompleteScreen != null)
+        {
+            this.levelCompleteScreen.SetActive(false);
+        }
     }
 
-
+    /*
     public void IsLevelActive(int playerScore)
     {
         if (playerScore == 2)
@@ -42,5 +54,6 @@ public class Enabled_Disabled : MonoBehaviour
         }
 
     }
+    */
    
 }
