@@ -79,6 +79,7 @@ public class Timer : MonoBehaviour
             currentTime = savedTime; // Restore the saved current time
             levelTime.text = "Time: " + savedTimeText; // Display the saved time
             PlayerPrefs.DeleteAll();
+          
 
             //stopWatchActive = false;
 

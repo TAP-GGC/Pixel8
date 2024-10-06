@@ -16,8 +16,8 @@ public class LogicScript : MonoBehaviour
 
     void Awake()
     {
-        transform.parent = null;
-        DontDestroyOnLoad(gameObject);
+        //transform.parent = null;
+        //DontDestroyOnLoad(gameObject);
     }
 
     // Start is called before the first frame update
