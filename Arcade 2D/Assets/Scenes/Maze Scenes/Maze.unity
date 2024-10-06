@@ -3912,7 +3912,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6b24cc1214b95c4481d30e60c851989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stopWatchActive: 0
   currentTimeText: {fileID: 672578077}
+  levelTime: {fileID: 1270841454}
 --- !u!1 &496663421
 GameObject:
   m_ObjectHideFlags: 0
@@ -6548,7 +6550,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6b24cc1214b95c4481d30e60c851989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stopWatchActive: 0
   currentTimeText: {fileID: 672578077}
+  levelTime: {fileID: 1270841454}
 --- !u!1 &690769535
 GameObject:
   m_ObjectHideFlags: 0
@@ -11022,7 +11026,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6b24cc1214b95c4481d30e60c851989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTimeText: {fileID: 1270841454}
+  stopWatchActive: 0
+  currentTimeText: {fileID: 672578077}
+  levelTime: {fileID: 1270841454}
 --- !u!1 &1278910547
 GameObject:
   m_ObjectHideFlags: 0
@@ -16505,7 +16511,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1793656753}
+      - m_Target: {fileID: 519420033}
         m_TargetAssemblyTypeName: MazeButtons, Assembly-CSharp
         m_MethodName: levelCompleted
         m_Mode: 1
@@ -19712,7 +19718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScore: 0
   scoreText: {fileID: 1675709262}
-  timer: {fileID: 0}
+  timer: {fileID: 1270841456}
   buttons: {fileID: 1793656753}
   completeLevel: {fileID: 0}
 --- !u!1 &2133820475

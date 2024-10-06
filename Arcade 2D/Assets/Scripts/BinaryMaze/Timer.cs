@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    bool stopWatchActive = false;
+    public bool stopWatchActive = false;
     public static float currentTime;
     public Text currentTimeText;
     public Text levelTime;
@@ -19,8 +19,9 @@ public class Timer : MonoBehaviour
     {
         stopWatchActive = true;
         currentTime = 0;
-        //Time.timeScale = 1;
-        Invoke("GameOver", 60);
+        Time.timeScale = 0.8f;
+        loadTimeData();
+        //Invoke("GameOver", 60);
     }
 
     
@@ -29,12 +30,26 @@ public class Timer : MonoBehaviour
     {
         if (stopWatchActive == true)
         {
+            currentTime += Time.deltaTime;
+            TimeSpan time = TimeSpan.FromSeconds(currentTime);
+            currentTimeText.text = time.ToString(@"mm\:ss");
+            saveTimeData(currentTimeText);
+
+            if (currentTime >= 120) // Example: if the timer reaches 60 seconds
+            {
+                GameOver();
+            }
+        }
+        /*
+        if (stopWatchActive == true)
+        {
             currentTime = currentTime + Time.deltaTime; // adding real time in seconds from fames
         }
         TimeSpan time = TimeSpan.FromSeconds(currentTime); // converts to hours, minutes, and seconds
         currentTimeText.text = time.ToString(@"mm\:ss");
         saveTimeData(currentTimeText);
         //Invoke("GameOver", 60);
+        */
     }
 
     public void StopTime()
@@ -47,8 +62,9 @@ public class Timer : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             PlayerPrefs.SetFloat("Time1", currentTime);
-            PlayerPrefs.SetString("Time1Text", current.text);
-            loadTimeData();
+            PlayerPrefs.SetString("Time1Text", currentTimeText.text);
+            PlayerPrefs.Save();
+            //loadTimeData();
         }
     }
 
@@ -56,10 +72,19 @@ public class Timer : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-            if (stopWatchActive == false)
-            {
-                levelTime.text = "Time: " + PlayerPrefs.GetString("Time1Text");
-            }
+            // Load the saved time and set it in the UI element
+            float savedTime = PlayerPrefs.GetFloat("Time1"); // Default to 0 if no data is found
+            string savedTimeText = PlayerPrefs.GetString("Time1Text"); // Default format
+
+            currentTime = savedTime; // Restore the saved current time
+            levelTime.text = "Time: " + savedTimeText; // Display the saved time
+            PlayerPrefs.DeleteAll();
+
+            //stopWatchActive = false;
+
+            //levelTime.text = "Time: " + PlayerPrefs.GetString("Time1Text");
+            //stopWatchActive = false;
+            
         }
     }
 

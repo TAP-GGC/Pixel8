@@ -40,7 +40,7 @@ public class LogicScript : MonoBehaviour
 
     public void winGame(int playerScore)
     {
-        if(playerScore == 2)
+        if(playerScore == 1)
         {
             //DontDestroyOnLoad(gameObject);
             //completeLevel.IsLevelActive(playerScore);
@@ -51,8 +51,9 @@ public class LogicScript : MonoBehaviour
 
             if (timer != null)
             {
+                //timer.StopTime();
+                //timer.loadTimeData();
                 timer.StopTime();
-                timer.loadTimeData();
             }
 
             if (buttons != null)
