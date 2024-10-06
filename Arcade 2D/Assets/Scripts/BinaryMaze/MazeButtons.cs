@@ -18,4 +18,9 @@ public class MazeButtons : MonoBehaviour
             SceneManager.LoadSceneAsync(1);
         }
     }
+
+    public void levelFailed()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
 }

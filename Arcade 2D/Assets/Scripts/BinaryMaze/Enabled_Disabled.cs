@@ -7,6 +7,7 @@ public class Enabled_Disabled : MonoBehaviour
 {
     public GameObject questionPanel;
     public GameObject levelCompleteScreen;
+    public GameObject gameLimit;
 
    
     public void OnDisable()
@@ -38,6 +39,22 @@ public class Enabled_Disabled : MonoBehaviour
         if (this.levelCompleteScreen != null)
         {
             this.levelCompleteScreen.SetActive(false);
+        }
+    }
+
+    public void EnableGameOver()
+    {
+        if(this.gameLimit != null)
+        {
+            this.gameLimit.SetActive(true);
+        }
+    }
+
+    public void DisableGameOver()
+    {
+        if(this.gameLimit != null)
+        {
+            this.gameLimit.SetActive(false);
         }
     }
 

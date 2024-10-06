@@ -11,9 +11,10 @@ public class Timer : MonoBehaviour
     public static float currentTime;
     public Text currentTimeText;
     public Text levelTime;
+    public Enabled_Disabled gameOver;
     //public float levelTime;
 
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,12 @@ public class Timer : MonoBehaviour
         currentTime = 0;
         Time.timeScale = 0.8f;
         loadTimeData();
+
+        gameOver = GameObject.FindGameObjectWithTag("GameOver").GetComponent<Enabled_Disabled>();
+        if (gameOver != null)
+        {
+            gameOver.DisableGameOver();
+        }
         //Invoke("GameOver", 60);
     }
 
@@ -35,7 +42,7 @@ public class Timer : MonoBehaviour
             currentTimeText.text = time.ToString(@"mm\:ss");
             saveTimeData(currentTimeText);
 
-            if (currentTime >= 40) // Example: if the timer reaches 60 seconds
+            if (currentTime >= 30) // Example: if the timer reaches 60 seconds
             {
                 GameOver();
             }
@@ -94,8 +101,14 @@ public class Timer : MonoBehaviour
 
     void GameOver()
     {
+        if (gameOver != null)
+        {
+            StopTime();
+            gameOver.EnableGameOver();
+            //StopTime();
+        }
         // will make Binary exit button transition to the main menu
-        SceneManager.LoadSceneAsync(0);
+       // SceneManager.LoadSceneAsync(0);
     }
 
 }
