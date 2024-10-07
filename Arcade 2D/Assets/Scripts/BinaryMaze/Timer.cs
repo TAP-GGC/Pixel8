@@ -65,6 +65,12 @@ public class Timer : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    public void StartTime()
+    {
+        stopWatchActive = true;
+        Time.timeScale = 0.8f;
+    }
+
     public void saveTimeData(Text current)
     {
         if (SceneManager.GetActiveScene().buildIndex == 2)

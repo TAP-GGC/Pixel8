@@ -16,6 +16,7 @@ public class MazeButtons : MonoBehaviour
         {
             hint.DisableHint();
         }
+        timer = GameObject.FindObjectOfType<Timer>();
     }
 
     public void exitBinaryMaze()
@@ -56,13 +57,21 @@ public class MazeButtons : MonoBehaviour
     public void ToggleHint()
     {
         isHintActive = !isHintActive; // Toggle the state
-
+   
         if (isHintActive)
         {
+            if (timer != null)
+            {
+                timer.StopTime();
+            }
             hint.EnableHint(); // Enable hint
         }
         else
         {
+            if (timer != null)
+            {
+                timer.StartTime();
+            }
             hint.DisableHint(); // Disable hint
         }
     }
