@@ -8,6 +8,7 @@ public class Enabled_Disabled : MonoBehaviour
     public GameObject questionPanel;
     public GameObject levelCompleteScreen;
     public GameObject gameLimit;
+    public GameObject gameHint;
 
    
     public void OnDisable()
@@ -58,19 +59,20 @@ public class Enabled_Disabled : MonoBehaviour
         }
     }
 
-    /*
-    public void IsLevelActive(int playerScore)
+    public void EnableHint()
     {
-        if (playerScore == 2)
+        if (this.gameHint != null)
         {
-            levelCompleteScreen.SetActive(true);
+            this.gameHint.SetActive(true);
         }
-        else
-        {
-            levelCompleteScreen.SetActive(false);
-        }
-
     }
-    */
+
+    public void DisableHint()
+    {
+        if (this.gameHint != null)
+        {
+            this.gameHint.SetActive(false);
+        }
+    }
    
 }
