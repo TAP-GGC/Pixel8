@@ -1,8 +1,8 @@
-<!-- height or width of logo may be adjusted -->
+<!-- height or width of the logo may be adjusted -->
 <!-- This section is where you will replace the link to your transparent logo, the title of your project, and the very short description of your project -->
 <!-- If you used Canva to make your icon and don't want to pay for a background remover, you can use the website https://www.remove.bg/ to do so -->
 <p align="center">
-  <img alt="Template Logo" src="https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Binary_Maze_Light_Mode-removebg-preview.png" width="" height="350" />
+  <img alt="Template Logo" src="https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Pixel%20ArcadeTransparent.png" width="" height="350" />
   <h1 align="center">Using Interactive Game to Teach Binary Instruction by Pixel 8</h1>
 </p>
 <!-- the emojis are not set in stone! If you'd like you can remove them entirely or select your own from https://gist.github.com/rxaviers/7360908 you are welcome to -->
@@ -12,6 +12,7 @@ Our project allows students to develop an interest in the technology field throu
 <!-- You can look at other TAP projects if you need a better idea of how to describe your workshop objectives -->
 
 This workshop will have students play an interactive game that will allow students to go through different games that will test their knowledge of binary and decimal conversions. 
+This workshop will give a short presentation explaining TAP, binary coding, and the project. After that,  participants will get the chance to play the game and enforce what they just learned. There will be tips and tricks included in each game to help further enhance the concept.
 
 ## :bulb: Project Information
 <!-- 
@@ -61,8 +62,13 @@ You can select from a range of audiences or a single audience. Examples:
 
 
 ## :page_with_curl: Project Description
-The objective of this project is to teach students about binary-related topics, such as converting binary to decimal, reading and writing RGB values, and understanding hex codes. The workshop will feature an interactive game in which students navigate through a maze to collect puzzle pieces by answering binary-related questions through inputs, buttons, and other interactive elements. Players will face challenges of increasing difficulty as they progress, reinforcing their understanding of binary concepts. Along the way, hints and explanations will be provided to help students grasp more complex ideas and complete the puzzle correctly.
+Our project provides students with the opportunity to develop an interest in the technology field through engaging with educational games involving the conversion between binary and decimal. There will be 3 different mini-games they will able to interact with.  <br><br>
 
+<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Binary_Maze_Light_Mode-removebg-preview.png"  height="120"> Binary Maze – A game where the user will go through a maze where they will have to answer all the questions before moving on to the next level. There are 3 levels to the game. The 1st level will go over a base power of 2, 2nd level will go over 4-bit, and the last level will go over 8-bit. <br>
+
+<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Planet%2001000010%20Transparent.png"  height="120"> Planet 01000010 – A game where the user will roll dice and will have to answer the question to move that number of spaces. (Can you help the alien find its way home?) <br>
+
+<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/RGB%20Paint%20Transparent.png"  height="120"> RGB Paint – A game where the user will plug in some numbers for the RGB chart which will then produce a random color for them to draw with on their canvas. This will be played after the participant has played either one of the other games. 
 
 
 ## :memo: Publications
@@ -94,8 +100,6 @@ Unity: https://unity.com
 <i> This section is dedicated to linking to .md files in your documents/tutorial/ folder that will contain instructions on installation
 
 </i>
-
-The Project does not have an installation to use this project go to https://zep.us/, create an account, and use the room code that will be provided later.
 
 ### Opening a blank Scratch page 
 * TBA
