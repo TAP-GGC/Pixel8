@@ -38,22 +38,6 @@ public class MazeButtons : MonoBehaviour
         SceneManager.LoadSceneAsync(0);
     }
 
-    public void HintOn()
-    {
-        if (hint != null)
-        {
-            hint.EnableHint();
-        }
-    }
-
-    public void HintOff()
-    {
-        if (hint != null)
-        {
-            hint.DisableHint();
-        }
-    }
-
     public void ToggleHint()
     {
         isHintActive = !isHintActive; // Toggle the state

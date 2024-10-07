@@ -10,15 +10,8 @@ public class LogicScript : MonoBehaviour
     public Timer timer;
     public MazeButtons buttons;
     public Enabled_Disabled completeLevel;
-    //public Text levelTime;
 
     [ContextMenu("Increase Score")]
-
-    void Awake()
-    {
-        //transform.parent = null;
-        //DontDestroyOnLoad(gameObject);
-    }
 
     // Start is called before the first frame update
     void Start()
@@ -42,8 +35,6 @@ public class LogicScript : MonoBehaviour
     {
         if(playerScore == 10)
         {
-            //DontDestroyOnLoad(gameObject);
-            //completeLevel.IsLevelActive(playerScore);
             if (completeLevel != null)
             {
                 completeLevel.EnableLevelComplete();
@@ -51,8 +42,6 @@ public class LogicScript : MonoBehaviour
 
             if (timer != null)
             {
-                //timer.StopTime();
-                //timer.loadTimeData();
                 timer.StopTime();
             }
 
@@ -60,8 +49,6 @@ public class LogicScript : MonoBehaviour
             {
                 buttons.levelCompleted();
             }
-            // will go to a screen that will say level complete
-            // and there will be a continue button that will let them go to the next level.
         }
     }
 }

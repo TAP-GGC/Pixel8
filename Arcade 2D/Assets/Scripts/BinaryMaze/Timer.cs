@@ -12,7 +12,6 @@ public class Timer : MonoBehaviour
     public Text currentTimeText;
     public Text levelTime;
     public Enabled_Disabled gameOver;
-    //public float levelTime;
 
 
     // Start is called before the first frame update
@@ -28,9 +27,7 @@ public class Timer : MonoBehaviour
         {
             gameOver.DisableGameOver();
         }
-        //Invoke("GameOver", 60);
     }
-
     
     // Update is called once per frame
     void Update()
@@ -42,21 +39,11 @@ public class Timer : MonoBehaviour
             currentTimeText.text = time.ToString(@"mm\:ss");
             saveTimeData(currentTimeText);
 
-            if (currentTime >= 600) // Example: if the timer reaches 60 seconds
+            if (currentTime >= 600) // Example: if the timer reaches 10 mins
             {
                 GameOver();
             }
         } 
-        /*
-        if (stopWatchActive == true)
-        {
-            currentTime = currentTime + Time.deltaTime; // adding real time in seconds from fames
-        }
-        TimeSpan time = TimeSpan.FromSeconds(currentTime); // converts to hours, minutes, and seconds
-        currentTimeText.text = time.ToString(@"mm\:ss");
-        saveTimeData(currentTimeText);
-        //Invoke("GameOver", 60);
-        */
     }
 
     public void StopTime()
@@ -78,7 +65,6 @@ public class Timer : MonoBehaviour
             PlayerPrefs.SetFloat("Time1", currentTime);
             PlayerPrefs.SetString("Time1Text", currentTimeText.text);
             PlayerPrefs.Save();
-            //loadTimeData();
         }
     }
 
@@ -86,7 +72,6 @@ public class Timer : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-
             // Load the saved time and set it in the UI element
             float savedTime = PlayerPrefs.GetFloat("Time1"); // Default to 0 if no data is found
             string savedTimeText = PlayerPrefs.GetString("Time1Text"); // Default format
@@ -99,9 +84,6 @@ public class Timer : MonoBehaviour
                 StopTime();
             }
             PlayerPrefs.DeleteAll();
-            //levelTime.text = "Time: " + PlayerPrefs.GetString("Time1Text");
-            //stopWatchActive = false;
-
         }
     }
 
@@ -111,10 +93,7 @@ public class Timer : MonoBehaviour
         {
             StopTime();
             gameOver.EnableGameOver();
-            //StopTime();
         }
-        // will make Binary exit button transition to the main menu
-       // SceneManager.LoadSceneAsync(0);
     }
 
 }
