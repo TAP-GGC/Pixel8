@@ -34,13 +34,13 @@ public class LogicScript : MonoBehaviour
     public void addScore()
     {
         playerScore++;
-        scoreText.text = "Questions: " + playerScore.ToString() + " / 8";
+        scoreText.text = "Questions: " + playerScore.ToString() + " / 10";
         winGame(playerScore);
     }
 
     public void winGame(int playerScore)
     {
-        if(playerScore == 1)
+        if(playerScore == 10)
         {
             //DontDestroyOnLoad(gameObject);
             //completeLevel.IsLevelActive(playerScore);

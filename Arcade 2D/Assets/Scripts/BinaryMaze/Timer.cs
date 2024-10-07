@@ -42,7 +42,7 @@ public class Timer : MonoBehaviour
             currentTimeText.text = time.ToString(@"mm\:ss");
             saveTimeData(currentTimeText);
 
-            if (currentTime >= 30) // Example: if the timer reaches 60 seconds
+            if (currentTime >= 600) // Example: if the timer reaches 60 seconds
             {
                 GameOver();
             }
