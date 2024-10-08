@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Drawing.unity
     guid: 7094126995d19e6439c648054ff310eb
+  - enabled: 1
+    path: Assets/Scenes/Planet Scenes/PlanetTitle.unity
+    guid: e037af8528743ee4eb1ffc99a367f023
+  - enabled: 1
+    path: Assets/Scenes/Planet Scenes/PlanetMain.unity
+    guid: be393d531c5a2fb4c872270ce51a1835
   m_configObjects: {}
