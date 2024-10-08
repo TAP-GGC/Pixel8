@@ -16,13 +16,14 @@ public class CheatSheetSlider : MonoBehaviour
     {
         // Set positions
         visiblePosition = cheatSheetPanel.anchoredPosition; // The position when visible
-        hiddenPosition = new Vector2(visiblePosition.x, visiblePosition.y - 500); // Off-screen position
+        hiddenPosition = new Vector2(visiblePosition.x + 500, visiblePosition.y); // Off-screen position
 
         // Initially set the cheat sheet off-screen
         cheatSheetPanel.anchoredPosition = hiddenPosition;
 
         // Add listener to toggle the cheat sheet
         cheatSheetToggle.onValueChanged.AddListener(OnToggleCheatSheet);
+
     }
 
     void Update()
