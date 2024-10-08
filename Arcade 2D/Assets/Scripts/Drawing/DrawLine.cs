@@ -7,7 +7,7 @@ public class DrawLine : MonoBehaviour
     private LineRenderer currentLineRenderer;
     private List<GameObject> drawnLines = new List<GameObject>();
     private LineColorChangerBinary colorChanger;
-
+    private int lineOrder = 0; // Variable to track the order of lines
 
     void Start()
     {
@@ -38,12 +38,15 @@ public class DrawLine : MonoBehaviour
         // Set the material to Default-Line
         currentLineRenderer.material = new Material(Shader.Find("Sprites/Default")) 
         {
-            color = colorChanger.GetLineColor() // You can set the line color here
+            color = colorChanger.GetLineColor() // Set the line color
         };
 
-        
         currentLineRenderer.widthMultiplier = 0.2f;
         currentLineRenderer.positionCount = 0;
+
+        // Set the sorting order to make sure new lines appear on top
+        currentLineRenderer.sortingOrder = lineOrder;
+        lineOrder++; // Increment the order for the next line
 
         drawnLines.Add(newLine);
 
@@ -60,6 +63,7 @@ public class DrawLine : MonoBehaviour
             currentLineRenderer.SetPosition(points.Count - 1, point);
         }
     }
+
     public void ClearAllLines()
     {
         foreach (GameObject line in drawnLines)
@@ -67,5 +71,6 @@ public class DrawLine : MonoBehaviour
             Destroy(line); // Destroy each line GameObject
         }
         drawnLines.Clear(); // Clear the list after destroying all lines
+        lineOrder = 0; // Reset the line order
     }
 }
