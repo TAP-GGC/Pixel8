@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 4791724327100259223}
   - component: {fileID: 141361363698372839}
   - component: {fileID: 8253653382249596896}
-  - component: {fileID: 5498185344330508534}
+  - component: {fileID: 6462006880178654839}
   m_Layer: 0
   m_Name: Blockade (Vertical)
   m_TagString: Untagged
@@ -262,7 +262,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5498185344330508534
+--- !u!114 &6462006880178654839
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -271,12 +271,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8365410210022275144}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10a34a5c3e2b2b6428cbe3b7e1f4acd3, type: 3}
+  m_Script: {fileID: 11500000, guid: f1e299d99b8c84da6bf6bb0361d987da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 0}
   answerInput: {fileID: 0}
   submitButton: {fileID: 0}
   feedbackText: {fileID: 0}
-  question: What is 50 in binary?
-  correctAnswer: 110010
+  question: What is 13 in binary?
+  correctAnswer: 1101
+  logic: {fileID: 0}
