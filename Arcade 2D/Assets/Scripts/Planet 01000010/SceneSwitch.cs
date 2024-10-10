@@ -12,7 +12,7 @@ public class SceneSwitch : MonoBehaviour
     {
         instance = this;
     }
-    
+
     public enum Scene
     {
         PlanetTitle,
@@ -33,14 +33,24 @@ public class SceneSwitch : MonoBehaviour
     {
         SceneManager.LoadScene(Scene.PlanetTitle.ToString());
     }
-    
-    public void LoadGameOver() 
-    { 
+
+    public void LoadGameOver()
+    {
         SceneManager.LoadScene(Scene.GameOver.ToString());
     }
 
     public void ExitButton()
     {
         SceneManager.LoadSceneAsync(0);
+    }
+
+    public void PlayButton()
+    {
+        SceneManager.LoadSceneAsync(5);
+    }
+
+    public void StartButton() 
+    {
+        SceneManager.LoadSceneAsync(6);
     }
 }
