@@ -38,6 +38,11 @@ public class Answers : MonoBehaviour
             dice.coroutineAllowed = true;
         }
     }
+
+    public void DisplayInstrustions()
+    { 
+
+    }
     /*private IEnumerator RemoveWrongTextAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
