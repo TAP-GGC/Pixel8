@@ -841,10 +841,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8365410210022275144, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 78767640}
+      addedObject: {fileID: 78767641}
     - targetCorrespondingSourceObject: {fileID: 8365410210022275144, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 78767641}
+      addedObject: {fileID: 78767640}
   m_SourcePrefab: {fileID: 100100000, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
 --- !u!4 &78767638 stripped
 Transform:
@@ -1395,10 +1395,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8365410210022275144, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 355584355}
+      addedObject: {fileID: 355584356}
     - targetCorrespondingSourceObject: {fileID: 8365410210022275144, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 355584356}
+      addedObject: {fileID: 355584355}
   m_SourcePrefab: {fileID: 100100000, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
 --- !u!1 &136345013 stripped
 GameObject:
@@ -4168,10 +4168,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8365410210022275144, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 372362971}
+      addedObject: {fileID: 372362972}
     - targetCorrespondingSourceObject: {fileID: 8365410210022275144, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 372362972}
+      addedObject: {fileID: 372362971}
   m_SourcePrefab: {fileID: 100100000, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
 --- !u!4 &372362969 stripped
 Transform:
@@ -4534,10 +4534,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.7
-    y: 0
-    width: 0.25
-    height: 0.3
+    x: 0.03
+    y: 0.4
+    width: 0.23
+    height: 0.31
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -10783,10 +10783,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8365410210022275144, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1130478047}
+      addedObject: {fileID: 1130478048}
     - targetCorrespondingSourceObject: {fileID: 8365410210022275144, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1130478048}
+      addedObject: {fileID: 1130478047}
   m_SourcePrefab: {fileID: 100100000, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
 --- !u!4 &1130478045 stripped
 Transform:
@@ -12236,7 +12236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -774, y: -206}
+  m_AnchoredPosition: {x: -774, y: -235}
   m_SizeDelta: {x: 240, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1292238773
@@ -13233,10 +13233,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8365410210022275144, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1712493828}
+      addedObject: {fileID: 1712493829}
     - targetCorrespondingSourceObject: {fileID: 8365410210022275144, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1712493829}
+      addedObject: {fileID: 1712493828}
   m_SourcePrefab: {fileID: 100100000, guid: 4c913e91e0297f14781d92929354cc04, type: 3}
 --- !u!1 &1392356292
 GameObject:
