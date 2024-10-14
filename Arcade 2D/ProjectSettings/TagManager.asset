@@ -10,6 +10,7 @@ TagManager:
   - LevelComplete
   - GameOver
   - Hint
+  - map
   layers:
   - Default
   - TransparentFX
