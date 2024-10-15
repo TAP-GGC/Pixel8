@@ -60,7 +60,7 @@ public class Timer : MonoBehaviour
 
     public void saveTimeData(Text current)
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 7)
         {
             PlayerPrefs.SetFloat("Time1", currentTime);
             PlayerPrefs.SetString("Time1Text", currentTimeText.text);
@@ -70,7 +70,7 @@ public class Timer : MonoBehaviour
 
     public void loadTimeData()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 7)
         {
             // Load the saved time and set it in the UI element
             float savedTime = PlayerPrefs.GetFloat("Time1"); // Default to 0 if no data is found

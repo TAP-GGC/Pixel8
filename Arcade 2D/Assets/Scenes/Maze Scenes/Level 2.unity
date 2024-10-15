@@ -1256,7 +1256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: 2^5
+      value: What is 0101 in decimal?
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -1276,7 +1276,7 @@ PrefabInstance:
       objectReference: {fileID: 1848189522}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 32
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -1489,7 +1489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: be21d31e042b7374db75d5106cf4449f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4cd6f5fcd808a4b419d7781194a2a8aa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2176,7 +2176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: 2^7
+      value: 'What is 10 in binary? '
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -2196,7 +2196,7 @@ PrefabInstance:
       objectReference: {fileID: 1848189522}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 128
+      value: 1010
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -3847,8 +3847,8 @@ MonoBehaviour:
   answerInput: {fileID: 39823622}
   submitButton: {fileID: 1848189522}
   feedbackText: {fileID: 2103173951}
-  question: 2^x = 8
-  correctAnswer: 3
+  question: 'What is 1011 in decimal? '
+  correctAnswer: 11
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &642937478
@@ -4290,8 +4290,8 @@ MonoBehaviour:
   answerInput: {fileID: 39823622}
   submitButton: {fileID: 1848189522}
   feedbackText: {fileID: 2103173951}
-  question: 2^x = 256
-  correctAnswer: 8
+  question: What is 1001 in decimal?
+  correctAnswer: 9
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &682477853
@@ -5635,7 +5635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: 2^6
+      value: 'What is 4 in binary? '
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -5655,7 +5655,7 @@ PrefabInstance:
       objectReference: {fileID: 1848189522}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 64
+      value: 0100
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -6239,8 +6239,8 @@ MonoBehaviour:
   answerInput: {fileID: 39823622}
   submitButton: {fileID: 1848189522}
   feedbackText: {fileID: 2103173951}
-  question: 2^x = 16
-  correctAnswer: 4
+  question: 'What is 13 in binary? '
+  correctAnswer: 1101
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &1043808381
@@ -6325,7 +6325,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 682477855}
         m_TargetAssemblyTypeName: MazeButtons, Assembly-CSharp
         m_MethodName: levelCompleted
         m_Mode: 1
@@ -7040,8 +7040,8 @@ MonoBehaviour:
   answerInput: {fileID: 39823622}
   submitButton: {fileID: 1848189522}
   feedbackText: {fileID: 2103173951}
-  question: 2^x = 4
-  correctAnswer: 2
+  question: What is 1110 in decimal?
+  correctAnswer: 14
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &1124080669
@@ -7386,7 +7386,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 682477855}
         m_TargetAssemblyTypeName: MazeButtons, Assembly-CSharp
         m_MethodName: levelFailed
         m_Mode: 1
@@ -8097,7 +8097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: 2^x = 64
+      value: 'What is 2 in binary? '
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -8117,7 +8117,7 @@ PrefabInstance:
       objectReference: {fileID: 1848189522}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 6
+      value: 0010
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -8260,7 +8260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: 2^1
+      value: What is 0111 in decimal?
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -8280,7 +8280,7 @@ PrefabInstance:
       objectReference: {fileID: 1848189522}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -8874,8 +8874,8 @@ MonoBehaviour:
   answerInput: {fileID: 39823622}
   submitButton: {fileID: 1848189522}
   feedbackText: {fileID: 2103173951}
-  question: 2^x = 32
-  correctAnswer: 5
+  question: 'What is 12 in binary? '
+  correctAnswer: 1100
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &1638280455

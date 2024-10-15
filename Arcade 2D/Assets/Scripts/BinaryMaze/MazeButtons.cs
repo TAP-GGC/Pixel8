@@ -37,6 +37,11 @@ public class MazeButtons : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().buildIndex == 2)
         {
+            SceneManager.LoadSceneAsync(7);
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 7)
+        {
             SceneManager.LoadSceneAsync(0);
         }
     }
