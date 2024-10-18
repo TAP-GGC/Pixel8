@@ -7,8 +7,7 @@ public class DrawLine : MonoBehaviour
     private LineRenderer currentLineRenderer;
     private List<GameObject> drawnLines = new List<GameObject>();
     private LineColorChangerBinary colorChanger;
-    private int lineOrder = 0; // Variable to track the order of lines
-
+    private int lineOrder = 0; 
     void Start()
     {
         colorChanger = GameObject.Find("Pencil").GetComponent<LineColorChangerBinary>();
@@ -36,7 +35,7 @@ public class DrawLine : MonoBehaviour
         currentLineRenderer = newLine.AddComponent<LineRenderer>();
 
         // Set the material to Default-Line
-        currentLineRenderer.material = new Material(Shader.Find("Sprites/Default")) 
+        currentLineRenderer.material = new Material(Shader.Find("Sprites/Default"))
         {
             color = colorChanger.GetLineColor() // Set the line color
         };
@@ -48,7 +47,7 @@ public class DrawLine : MonoBehaviour
         currentLineRenderer.sortingOrder = lineOrder;
         lineOrder++; // Increment the order for the next line
 
-        drawnLines.Add(newLine);
+        drawnLines.Add(newLine); // Add the new line to the list
 
         // Clear the points list for the new line
         points.Clear();
@@ -64,6 +63,27 @@ public class DrawLine : MonoBehaviour
         }
     }
 
+    public void RemoveLastTwoLines()
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            if (drawnLines.Count > 0)
+            {
+                GameObject lastLine = drawnLines[drawnLines.Count - 1];
+                Destroy(lastLine); 
+                drawnLines.RemoveAt(drawnLines.Count - 1); // Remove the last line from the list
+                lineOrder--; 
+            }
+        }
+    }
+
+    // Method to get the number of drawn lines
+    public int GetDrawnLinesCount()
+    {
+        return drawnLines.Count;
+    }
+
+    // Method to clear all lines (optional for future use)
     public void ClearAllLines()
     {
         foreach (GameObject line in drawnLines)
