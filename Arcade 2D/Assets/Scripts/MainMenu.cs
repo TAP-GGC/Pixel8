@@ -47,7 +47,7 @@ public class MainMenu : MonoBehaviour
     {
         if (hasPlayedBinary || hasPlayedPlanet)
         {
-            SceneManager.LoadSceneAsync(3);
+            SceneManager.LoadScene("Drawing Title");
         }
         
         else if (warningText != null)

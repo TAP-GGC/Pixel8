@@ -278,13 +278,7 @@ MonoBehaviour:
   answerInput: {fileID: 0}
   submitButton: {fileID: 0}
   feedbackText: {fileID: 0}
-<<<<<<< Updated upstream
-  question: What is 13 in binary?
-  correctAnswer: 1101
-  logic: {fileID: 0}
-=======
   question: What is 50 in binary?
   correctAnswer: 110010
   logic: {fileID: 0}
   panel: {fileID: 0}
->>>>>>> Stashed changes
