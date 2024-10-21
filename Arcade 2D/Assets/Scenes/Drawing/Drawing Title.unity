@@ -315,10 +315,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Left click and hold to draw\r\n\r\nTo close panael double click the more
-    colors button\r\n\r\nTo change colors: \r\n\r\nEnter the binary numbers into
-    the R, G, and B input boxes and click submit or use enter key\r\n\r\nclick on
-    the more colors button to see color examples clicking the color changes your
+  m_Text: "Left click and hold to draw\r\n\r\nTo close panel click the \"More Colors\"
+    button\r\n\r\nTo change colors: \r\n\r\nEnter the binary numbers into the \"R\",
+    \"G\", and \"B\" input boxes and click submit or use enter key\r\n\r\nclick on
+    the \"More Colors\" button to see color examples clicking the color changes your
     color to match"
 --- !u!222 &267971870
 CanvasRenderer:
