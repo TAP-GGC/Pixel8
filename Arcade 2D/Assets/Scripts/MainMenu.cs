@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    private static bool hasPlayedBinary = false; // Static to persist across scenes
+    public static bool hasPlayedBinary = false; // Static to persist across scenes
+    public static bool hasPlayedPlanet = false;
     public Text warningText;
 
     void Start()
@@ -28,21 +29,31 @@ public class MainMenu : MonoBehaviour
             warningText.text = "";
         }
 
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(2);
+    }
+    public void PlayPlanet()
+    {
+        hasPlayedPlanet = true;
+
+        if (warningText != null)
+        {
+            warningText.text = "";
+        }
+
+        SceneManager.LoadSceneAsync(5);
     }
 
     public void PlayPaint()
     {
-        if (hasPlayedBinary)
+        if (hasPlayedBinary || hasPlayedPlanet)
         {
-            SceneManager.LoadSceneAsync(3);
+            SceneManager.LoadScene("Drawing Title");
         }
-        else
+        
+        else if (warningText != null)
         {
-            if (warningText != null)
-            {
-                warningText.text = "You must play another game first.";
-            }
+            warningText.text = "You must play Binary Maze or Planet 01000010 first.";
         }
+       
     }
 }
