@@ -45,21 +45,13 @@ public class MainMenu : MonoBehaviour
 
     public void PlayPaint()
     {
-        if (hasPlayedBinary && hasPlayedPlanet)
+        if (hasPlayedBinary || hasPlayedPlanet)
         {
             SceneManager.LoadSceneAsync(3);
         }
-        else if (hasPlayedBinary && !hasPlayedPlanet)
-        {
-            warningText.text = "You must play Planet 01000010 first.";
-        }
-        else if (!hasPlayedBinary && hasPlayedPlanet)
-        {
-            warningText.text = "You must play Binary Maze first.";
-        }
         else if (warningText != null)
         {
-            warningText.text = "You must play Binary Maze and Planet 01000010 first.";
+            warningText.text = "You must play Binary Maze or Planet 01000010 first.";
         }
        
     }
