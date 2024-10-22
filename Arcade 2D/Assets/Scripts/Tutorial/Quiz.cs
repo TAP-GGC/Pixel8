@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Quiz : MonoBehaviour
@@ -66,6 +67,15 @@ public class Quiz : MonoBehaviour
         else
         {
             wrongText.text = "Incorrect, try again!";
+        }
+    }
+
+    public void exitTutorial()
+    {
+        if(currentQuestionIndex == questionKeys.Count)
+        {
+            // will make Binary exit button transition to the main menu
+            SceneManager.LoadSceneAsync(1);
         }
     }
 }
