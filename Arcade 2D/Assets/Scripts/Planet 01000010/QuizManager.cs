@@ -29,9 +29,9 @@ public class QuizManager : MonoBehaviour
         GenerateQuestion();
     }
 
-    public void Retry()
+    public void Exit()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadSceneAsync(1);
     }
     
     public void GameOver()
