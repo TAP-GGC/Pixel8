@@ -7,13 +7,15 @@ public class Answers : MonoBehaviour
 {
     public bool isCorrect = false;
     public QuizManager quizManager;
-    //public static GameObject pWrongText;
 
-    public Dice dice;
+    public GameObject correctText;
+    public GameObject wrongText;
+
+    public Game game;
     public void Start()
     {
-        //pWrongText = GameObject.Find("PlayerWrongText");
-        //pWrongText.SetActive(false);
+        correctText.SetActive(false);
+        wrongText.SetActive(false);
     }
     public void Answer()
     {
@@ -21,38 +23,44 @@ public class Answers : MonoBehaviour
         {
             if (isCorrect)
             {
-                Game.MovePlayer(1);
                 Debug.Log("Correct Answer");
+                StartCoroutine(DisplayC_TextAfterDelay(.2f));
+                Game.MovePlayer(1);
+                StartCoroutine(RemoveC_TextAfterDelay(2f));
                 quizManager.Correct();
             }
             else
             {
                 Debug.Log("Wrong Answer");
-                //StartCoroutine(DisplayWrongTextAfterDelay(0.5f));
-                //StartCoroutine(RemoveWrongTextAfterDelay(1.5f));
-                Game.player1MoveText.gameObject.SetActive(false);
-                Game.player2MoveText.gameObject.SetActive(true);
+                StartCoroutine(DisplayW_TextAfterDelay(.2f));
+                StartCoroutine(RemoveW_TextAfterDelay(2f));
+                game.player1MoveText.gameObject.SetActive(false);
+                game.npcMoveText.gameObject.SetActive(true);
                 quizManager.Wrong();
             }
             Dice.whosTurn *= -1;
-            dice.coroutineAllowed = true;
+            Dice.coroutineAllowed = true;
         }
     }
 
-    public void DisplayInstrustions()
-    { 
-
-    }
-    /*private IEnumerator RemoveWrongTextAfterDelay(float delay)
+    private IEnumerator RemoveC_TextAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        pWrongText.SetActive(false);
-
+        correctText.SetActive(false);
     }
-    private IEnumerator DisplayWrongTextAfterDelay(float delay)
+    private IEnumerator DisplayC_TextAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        pWrongText.SetActive(true);
-
-    }*/
+        correctText.SetActive(true);
+    }
+    private IEnumerator RemoveW_TextAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        wrongText.SetActive(false);
+    }
+    private IEnumerator DisplayW_TextAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        wrongText.SetActive(true);
+    }
 }

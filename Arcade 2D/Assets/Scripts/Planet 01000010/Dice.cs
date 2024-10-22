@@ -8,7 +8,8 @@ public class Dice : MonoBehaviour
     // Array of dice sides sprites to load from Resources folder
     private Sprite[] diceSides;
 
-    public static GameObject WrongText;
+    public GameObject npcW_Text;
+    public GameObject npcC_Text;
 
     // Reference to sprite renderer to change sprites
     private SpriteRenderer rend;
@@ -17,10 +18,11 @@ public class Dice : MonoBehaviour
     public static int whosTurn = 1;
 
     //Blocks player rolling of die until current player's turn is over
-    public bool coroutineAllowed = true;
+    public static bool coroutineAllowed = true;
 
     int randomNumber = 0;
 
+    public Game game;
     // Use this for initialization
     private void Start()
     {
@@ -30,13 +32,11 @@ public class Dice : MonoBehaviour
         // Load dice sides sprites to array from DiceSides subfolder of Resources folder
         diceSides = Resources.LoadAll<Sprite>("DiceSides");
 
-        Debug.Log(diceSides.Length);
-
         //Shows face 6 at the beginning
         rend.sprite = diceSides[5];
 
-        WrongText = GameObject.Find("NPCWrongText");
-        WrongText.SetActive(false);
+        npcC_Text.SetActive(false);
+        npcW_Text.SetActive(false);
     }
 
     private void Update()
@@ -71,15 +71,16 @@ public class Dice : MonoBehaviour
             Debug.Log(randomNumber);
             if (randomNumber == 1)
             {
-                StartCoroutine(MovePlayerAfterDelay(3f));
                 Debug.Log("NPC got the question right");
-
+                StartCoroutine(DisplayNPCC_TextAfterDelay(2f));
+                StartCoroutine(RemoveNPCC_TextAfterDelay(4f));
+                StartCoroutine(MovePlayerAfterDelay(3f));
             }
             else
             {
                 Debug.Log("NPC got the question wrong");
-                StartCoroutine(DisplayNPCTextAfterDelay(2f));
-                StartCoroutine(RemoveNPCTextAfterDelay(4f));
+                StartCoroutine(DisplayNPCW_TextAfterDelay(2f));
+                StartCoroutine(RemoveNPCW_TextAfterDelay(4f));
                 StartCoroutine(SwitchPlayerTextAfterDelay(2f));
                 //NPC got the question wrong and won't move
                 //Switch to player 1's turn
@@ -127,19 +128,30 @@ public class Dice : MonoBehaviour
     private IEnumerator SwitchPlayerTextAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        Game.player2MoveText.gameObject.SetActive(false);
-        Game.player1MoveText.gameObject.SetActive(true);
+        game.npcMoveText.gameObject.SetActive(false);
+        game.player1MoveText.gameObject.SetActive(true);
     }
 
-    private IEnumerator RemoveNPCTextAfterDelay(float delay)
+    private IEnumerator RemoveNPCC_TextAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        WrongText.SetActive(false);
+        npcC_Text.SetActive(false);
 
     }
-    private IEnumerator DisplayNPCTextAfterDelay(float delay)
+    private IEnumerator DisplayNPCC_TextAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        WrongText.SetActive(true);
+        npcC_Text.SetActive(true);
+    }
+    private IEnumerator RemoveNPCW_TextAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        npcW_Text.SetActive(false);
+
+    }
+    private IEnumerator DisplayNPCW_TextAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        npcW_Text.SetActive(true);
     }
 }
