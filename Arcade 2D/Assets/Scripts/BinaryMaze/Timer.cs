@@ -39,7 +39,7 @@ public class Timer : MonoBehaviour
         //level.text = "";
         //gameTime.text = "";
     }
-    
+
     // Update is called once per frame
     void Update()
     {
@@ -71,17 +71,29 @@ public class Timer : MonoBehaviour
 
     public void saveTimeData(Text current)
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 7 || SceneManager.GetActiveScene().buildIndex == 8)
+        if (SceneManager.GetActiveScene().buildIndex == 2 /*|| SceneManager.GetActiveScene().buildIndex == 7 || SceneManager.GetActiveScene().buildIndex == 8*/)
         {
             PlayerPrefs.SetFloat("Time1", currentTime);
             PlayerPrefs.SetString("Time1Text", currentTimeText.text);
+            PlayerPrefs.Save();
+        } 
+        else if (SceneManager.GetActiveScene().buildIndex == 7)
+        {
+            PlayerPrefs.SetFloat("Time2", currentTime);
+            PlayerPrefs.SetString("Time2Text", currentTimeText.text);
+            PlayerPrefs.Save();
+        } 
+        else if (SceneManager.GetActiveScene().buildIndex == 8)
+        {
+            PlayerPrefs.SetFloat("Time3", currentTime);
+            PlayerPrefs.SetString("Time3Text", currentTimeText.text);
             PlayerPrefs.Save();
         }
     }
 
     public void loadTimeData()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 7 || SceneManager.GetActiveScene().buildIndex == 8)
+        if (SceneManager.GetActiveScene().buildIndex == 2 /*|| SceneManager.GetActiveScene().buildIndex == 7 || SceneManager.GetActiveScene().buildIndex == 8*/)
         {
             //List<string> playerTime = new List<string>();
             //List<float> playerSeconds = new List<float>();
@@ -96,15 +108,54 @@ public class Timer : MonoBehaviour
             //playerTime.Add(savedTimeText);
             //playerSeconds.Add(savedTime);
 
-            playerTime.Add(PlayerPrefs.GetString("Time1Text"));
-            playerSeconds.Add(PlayerPrefs.GetFloat("Time1"));
+            //playerTime.Add(PlayerPrefs.GetString("Time1Text"));
+            //playerSeconds.Add(PlayerPrefs.GetFloat("Time1"));
             //finalTime(playerTime, playerSeconds);
 
             if (savedTime > 0)
             {
                 StopTime();
+                currentTime = 0;
             }
-            PlayerPrefs.DeleteAll();
+            //PlayerPrefs.DeleteAll();
+        } 
+        else if(SceneManager.GetActiveScene().buildIndex == 7)
+        {
+            float savedTime = PlayerPrefs.GetFloat("Time2"); // Default to 0 if no data is found
+            string savedTimeText = PlayerPrefs.GetString("Time2Text"); // Default format
+
+            currentTime = savedTime; // Restore the saved current time
+            levelTime.text = "Time: " + savedTimeText; // Display the saved time
+
+            if (savedTime > 0)
+            {
+                StopTime();
+                currentTime = 0;
+            }
+            //PlayerPrefs.DeleteAll();
+            
+        } 
+        else if (SceneManager.GetActiveScene().buildIndex == 8)
+        {
+            float savedTime = PlayerPrefs.GetFloat("Time3"); // Default to 0 if no data is found
+            string savedTimeText = PlayerPrefs.GetString("Time3Text"); // Default format
+
+            currentTime = savedTime; // Restore the saved current time
+            levelTime.text = "Time: " + savedTimeText; // Display the saved time
+
+            if (savedTime > 0)
+            {
+                StopTime();
+                //currentTime = 0;
+            }
+            //PlayerPrefs.DeleteAll();
+        } 
+        else
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 0)
+            {
+                PlayerPrefs.DeleteAll();
+            }
         }
     }
 
