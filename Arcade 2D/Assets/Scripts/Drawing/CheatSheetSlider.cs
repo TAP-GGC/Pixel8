@@ -4,44 +4,61 @@ using UnityEngine.UI;
 public class CheatSheetSlider : MonoBehaviour
 {
     public RectTransform cheatSheetPanel; 
-    public Toggle cheatSheetToggle; 
+    public Button cheatSheetToggle;      
 
-    private Vector2 hiddenPosition; 
-    private Vector2 visiblePosition;
-    private float slideSpeed = 500f;
+    private Vector2 hiddenPosition;       
+    private Vector2 visiblePosition;      
+    private float slideSpeed = 500f;      
 
-    private bool isVisible = false; 
+    private bool isVisible = true;        
+    private bool isSliding = false;       
 
     void Start()
     {
         // Set positions
-        visiblePosition = cheatSheetPanel.anchoredPosition; // The position when visible
-        hiddenPosition = new Vector2(visiblePosition.x + 500, visiblePosition.y); // Off-screen position
+        visiblePosition = cheatSheetPanel.anchoredPosition; 
+        hiddenPosition = new Vector2(visiblePosition.x + 500, visiblePosition.y);
 
-        // Initially set the cheat sheet off-screen
+        
         cheatSheetPanel.anchoredPosition = hiddenPosition;
-
+        
         // Add listener to toggle the cheat sheet
-        cheatSheetToggle.onValueChanged.AddListener(OnToggleCheatSheet);
-
+        cheatSheetToggle.onClick.AddListener(OnToggleCheatSheet);
     }
 
     void Update()
     {
-        // slide animation
-        if (isVisible)
+        // Animate the panel sliding
+        if (isSliding)
         {
-            cheatSheetPanel.anchoredPosition = Vector2.MoveTowards(cheatSheetPanel.anchoredPosition, visiblePosition, slideSpeed * Time.deltaTime);
-        }
-        else
-        {
-            cheatSheetPanel.anchoredPosition = Vector2.MoveTowards(cheatSheetPanel.anchoredPosition, hiddenPosition, slideSpeed * Time.deltaTime);
+            if (isVisible)
+            {
+                // Slide out (hide)
+                cheatSheetPanel.anchoredPosition = Vector2.MoveTowards(cheatSheetPanel.anchoredPosition, hiddenPosition, slideSpeed * Time.deltaTime);
+                if (cheatSheetPanel.anchoredPosition == hiddenPosition)
+                {
+                    isSliding = false; // Stop sliding when reached the hidden position
+                }
+            }
+            else
+            {
+                // Slide in (show)
+                cheatSheetPanel.anchoredPosition = Vector2.MoveTowards(cheatSheetPanel.anchoredPosition, visiblePosition, slideSpeed * Time.deltaTime);
+                if (cheatSheetPanel.anchoredPosition == visiblePosition)
+                {
+                    isSliding = false; // Stop sliding when reached the visible position
+                }
+            }
         }
     }
 
-    // Toggles the cheat sheet visibility
-    void OnToggleCheatSheet(bool isOn)
+    // Toggles the cheat sheet visibility and starts sliding animation
+    void OnToggleCheatSheet()
     {
-        isVisible = isOn;
+        if (!isSliding) // Prevent toggling while already sliding
+        {
+            isVisible = !isVisible; // Toggle the visibility state
+            isSliding = true; // Start sliding animation
+        }
     }
 }

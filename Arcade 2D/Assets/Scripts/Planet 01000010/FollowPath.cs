@@ -11,7 +11,7 @@ public class FollowPath : MonoBehaviour
     [SerializeField] private float moveSpeed = 0.5f;
     
     //Holds current number of waypoint player occupies
-    /*[HideInInspector] */ public int waypointIndex = 0;
+    [HideInInspector] public int waypointIndex = 0;
     
     //If current player is allowed to move or not (for multiplayer)
     public bool moveAllowed = false;
