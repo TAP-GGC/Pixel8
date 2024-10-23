@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 301182816}
         m_TargetAssemblyTypeName: MazeButtons, Assembly-CSharp
         m_MethodName: ToggleHint
         m_Mode: 1
