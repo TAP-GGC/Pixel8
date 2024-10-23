@@ -72,19 +72,19 @@ public class Timer : MonoBehaviour
 
     public void saveTimeData(Text current)
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             PlayerPrefs.SetFloat("Time1", currentTime);
             PlayerPrefs.SetString("Time1Text", currentTimeText.text);
             PlayerPrefs.Save();
         } 
-        else if (SceneManager.GetActiveScene().buildIndex == 7)
+        else if (SceneManager.GetActiveScene().buildIndex == 8)
         {
             PlayerPrefs.SetFloat("Time2", currentTime);
             PlayerPrefs.SetString("Time2Text", currentTimeText.text);
             PlayerPrefs.Save();
         } 
-        else if (SceneManager.GetActiveScene().buildIndex == 8)
+        else if (SceneManager.GetActiveScene().buildIndex == 9)
         {
             PlayerPrefs.SetFloat("Time3", currentTime);
             PlayerPrefs.SetString("Time3Text", currentTimeText.text);
@@ -94,7 +94,7 @@ public class Timer : MonoBehaviour
 
     public void loadTimeData()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             //List<string> playerTime = new List<string>();
             //List<float> playerSeconds = new List<float>();
@@ -120,7 +120,7 @@ public class Timer : MonoBehaviour
             }
             PlayerPrefs.DeleteAll();
         } 
-        else if(SceneManager.GetActiveScene().buildIndex == 7)
+        else if(SceneManager.GetActiveScene().buildIndex == 8)
         {
             float savedTime = PlayerPrefs.GetFloat("Time2"); // Default to 0 if no data is found
             string savedTimeText = PlayerPrefs.GetString("Time2Text"); // Default format
@@ -136,7 +136,7 @@ public class Timer : MonoBehaviour
             //PlayerPrefs.DeleteAll();
             
         } 
-        else if (SceneManager.GetActiveScene().buildIndex == 8)
+        else if (SceneManager.GetActiveScene().buildIndex == 9)
         {
             float savedTime = PlayerPrefs.GetFloat("Time3"); // Default to 0 if no data is found
             string savedTimeText = PlayerPrefs.GetString("Time3Text"); // Default format

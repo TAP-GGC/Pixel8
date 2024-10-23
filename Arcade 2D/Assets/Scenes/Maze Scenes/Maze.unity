@@ -2359,7 +2359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &231885731
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3930,7 +3930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &361049899
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4843,6 +4843,8 @@ MonoBehaviour:
   currentTimeText: {fileID: 672578077}
   levelTime: {fileID: 1270841454}
   gameOver: {fileID: 0}
+  playerTime: []
+  playerSeconds: []
 --- !u!1 &496663421
 GameObject:
   m_ObjectHideFlags: 0
@@ -7581,6 +7583,8 @@ MonoBehaviour:
   currentTimeText: {fileID: 672578077}
   levelTime: {fileID: 1270841454}
   gameOver: {fileID: 0}
+  playerTime: []
+  playerSeconds: []
 --- !u!1 &690769535
 GameObject:
   m_ObjectHideFlags: 0
@@ -12069,6 +12073,8 @@ MonoBehaviour:
   currentTimeText: {fileID: 672578077}
   levelTime: {fileID: 1270841454}
   gameOver: {fileID: 0}
+  playerTime: []
+  playerSeconds: []
 --- !u!1 &1278910547
 GameObject:
   m_ObjectHideFlags: 0
@@ -15596,7 +15602,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1621626885
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20044,7 +20050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1919451840
 RectTransform:
   m_ObjectHideFlags: 0
