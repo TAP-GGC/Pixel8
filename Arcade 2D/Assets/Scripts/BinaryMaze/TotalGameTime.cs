@@ -60,7 +60,7 @@ public class TotalGameTime : MonoBehaviour
         StringBuilder sb = new StringBuilder();
         foreach (string levelTime in playerTime)
         {
-            sb.AppendLine("Level " + countLevel + " Time: " + levelTime);
+            sb.AppendLine("Level " + countLevel + ": " + levelTime);
             countLevel++;
         }
         level.text = sb.ToString();  // Set the combined text
