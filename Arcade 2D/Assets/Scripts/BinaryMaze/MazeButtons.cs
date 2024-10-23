@@ -30,7 +30,7 @@ public class MazeButtons : MonoBehaviour
     public void exitBinaryMaze()
     {
         // will make Binary exit button transition to the main menu
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void levelCompleted()
