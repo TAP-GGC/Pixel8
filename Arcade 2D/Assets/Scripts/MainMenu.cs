@@ -29,7 +29,7 @@ public class MainMenu : MonoBehaviour
             warningText.text = "";
         }
 
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(2);
     }
     public void PlayPlanet()
     {
@@ -40,7 +40,7 @@ public class MainMenu : MonoBehaviour
             warningText.text = "";
         }
 
-        SceneManager.LoadSceneAsync(5);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void PlayPaint()

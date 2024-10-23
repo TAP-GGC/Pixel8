@@ -33,6 +33,15 @@ public class QuestionTrigger : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        // Check for Enter key press in the Update method (continuously checks every frame)
+        if (Input.GetKeyUp(KeyCode.KeypadEnter) || Input.GetKeyUp(KeyCode.Return))
+        {
+            CheckAnswer();
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

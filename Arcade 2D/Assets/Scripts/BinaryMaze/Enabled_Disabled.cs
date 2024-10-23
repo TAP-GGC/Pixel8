@@ -9,6 +9,7 @@ public class Enabled_Disabled : MonoBehaviour
     public GameObject levelCompleteScreen;
     public GameObject gameLimit;
     public GameObject gameHint;
+    public GameObject miniMap;
 
    
     public void OnDisable()
@@ -72,6 +73,22 @@ public class Enabled_Disabled : MonoBehaviour
         if (this.gameHint != null)
         {
             this.gameHint.SetActive(false);
+        }
+    }
+
+    public void EnableMiniMap()
+    {
+        if(this.miniMap != null)
+        {
+            this.miniMap.SetActive(true);
+        }
+    }
+
+    public void DisableMiniMap()
+    {
+        if(this.miniMap != null)
+        {
+            this.miniMap.SetActive(false);
         }
     }
    
