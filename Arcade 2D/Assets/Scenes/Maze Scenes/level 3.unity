@@ -695,7 +695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: 'What is 10 in binary? '
+      value: What is 11111111 in decimal?
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -715,7 +715,7 @@ PrefabInstance:
       objectReference: {fileID: 853816560}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 1010
+      value: 255
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -1153,8 +1153,8 @@ MonoBehaviour:
   answerInput: {fileID: 13781576}
   submitButton: {fileID: 853816560}
   feedbackText: {fileID: 1174740148}
-  question: 'What is 13 in binary? '
-  correctAnswer: 1101
+  question: What is 10110101 in decimal?
+  correctAnswer: 106
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &170727035
@@ -3472,8 +3472,8 @@ MonoBehaviour:
   answerInput: {fileID: 13781576}
   submitButton: {fileID: 853816560}
   feedbackText: {fileID: 1174740148}
-  question: What is 1001 in decimal?
-  correctAnswer: 9
+  question: What is 00011101 in decimal?
+  correctAnswer: 29
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &545792150
@@ -4557,7 +4557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: What is 0111 in decimal?
+      value: 'What is 200 in binary?   '
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -4577,7 +4577,7 @@ PrefabInstance:
       objectReference: {fileID: 853816560}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 7
+      value: 11001000
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -5801,7 +5801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: 'What is 2 in binary? '
+      value: 'What is 164 in binary? '
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -5821,7 +5821,7 @@ PrefabInstance:
       objectReference: {fileID: 853816560}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 0010
+      value: 10100100
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -8499,8 +8499,8 @@ MonoBehaviour:
   answerInput: {fileID: 13781576}
   submitButton: {fileID: 853816560}
   feedbackText: {fileID: 1174740148}
-  question: What is 1110 in decimal?
-  correctAnswer: 14
+  question: What is 99 in binary?
+  correctAnswer: '00100011 '
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &1400864613
@@ -9628,7 +9628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: What is 0101 in decimal?
+      value: 'What is 83 in binary?  '
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -9648,7 +9648,7 @@ PrefabInstance:
       objectReference: {fileID: 853816560}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 5
+      value: 01010011
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -11331,8 +11331,8 @@ MonoBehaviour:
   answerInput: {fileID: 13781576}
   submitButton: {fileID: 853816560}
   feedbackText: {fileID: 1174740148}
-  question: 'What is 1011 in decimal? '
-  correctAnswer: 11
+  question: 'What is 156 in binary? '
+  correctAnswer: 10011100
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &1725591219
@@ -12236,8 +12236,8 @@ MonoBehaviour:
   answerInput: {fileID: 13781576}
   submitButton: {fileID: 853816560}
   feedbackText: {fileID: 1174740148}
-  question: 'What is 12 in binary? '
-  correctAnswer: 1100
+  question: What is 00101101 in binary?
+  correctAnswer: 45
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &1938949642
@@ -12919,7 +12919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: 'What is 4 in binary? '
+      value: What is 11011011 in decimal?
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -12939,7 +12939,7 @@ PrefabInstance:
       objectReference: {fileID: 853816560}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 0100
+      value: 219
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
