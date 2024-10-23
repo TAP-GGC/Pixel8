@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 using JetBrains.Annotations;
 
+
+
 public class Timer : MonoBehaviour
 {
     public bool stopWatchActive = false;
@@ -20,7 +22,6 @@ public class Timer : MonoBehaviour
 
     public List<string> playerTime = new List<string>();
     public List<float> playerSeconds = new List<float>();
-
 
     // Start is called before the first frame update
     void Start()
@@ -71,7 +72,7 @@ public class Timer : MonoBehaviour
 
     public void saveTimeData(Text current)
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2 /*|| SceneManager.GetActiveScene().buildIndex == 7 || SceneManager.GetActiveScene().buildIndex == 8*/)
+        if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             PlayerPrefs.SetFloat("Time1", currentTime);
             PlayerPrefs.SetString("Time1Text", currentTimeText.text);
@@ -93,7 +94,7 @@ public class Timer : MonoBehaviour
 
     public void loadTimeData()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2 /*|| SceneManager.GetActiveScene().buildIndex == 7 || SceneManager.GetActiveScene().buildIndex == 8*/)
+        if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             //List<string> playerTime = new List<string>();
             //List<float> playerSeconds = new List<float>();
@@ -114,10 +115,10 @@ public class Timer : MonoBehaviour
 
             if (savedTime > 0)
             {
-                StopTime();
+                //StopTime();
                 //currentTime = 0;
             }
-            //PlayerPrefs.DeleteAll();
+            PlayerPrefs.DeleteAll();
         } 
         else if(SceneManager.GetActiveScene().buildIndex == 7)
         {
@@ -152,73 +153,9 @@ public class Timer : MonoBehaviour
         } 
         else
         {
-            if (SceneManager.GetActiveScene().buildIndex == 0)
-            {
-                PlayerPrefs.DeleteAll();
-            }
+            PlayerPrefs.DeleteAll();
         }
     }
-
-    /*
-    public void finalTime(List<string> levelTime, List<float> addFinalTime)
-    {
-        if (level == null || gameTime == null)
-        {
-            Debug.LogError("UI element 'level' or 'gameTime' is not assigned!");
-            return; // Stop the function to prevent the null reference
-        }
-
-        if (levelTime == null || addFinalTime == null)
-        {
-            Debug.LogError("levelTime or addFinalTime is null!");
-            return; // Stop the function
-        }
-
-        int countLevel = 1;
-        float totalTime = 0;
-        level.text = ""; // Clear previous text
-
-        for (int i = 0; i < levelTime.Count; i++)
-        {
-            level.text += "Level " + countLevel + " Time: " + levelTime[i] + "\n";
-            countLevel++; // Increment for each level
-        }
-
-        for (int i = 0; i < addFinalTime.Count; i++)
-        {
-            totalTime += addFinalTime[i];
-        }
-
-        TimeSpan total = TimeSpan.FromSeconds(totalTime);
-        gameTime.text = "Final Time: " + total.ToString(@"mm\:ss");
-    }
-    */
-
-
-    /*
-    public void finalTime(List<string> levelTime, List<float> addFinalTime)
-    {
-        int countLevel = 1;
-        float totalTime = 0;
-        level.text = "";
-
-        if (levelTime != null && addFinalTime != null)
-        {
-            for (int i = 0; i < levelTime.Count; i++)
-            {
-                level.text += "Level " + countLevel + " Time: " + levelTime[i] + "\n";
-                countLevel++;
-            }
-
-            for (int i = 0; i < addFinalTime.Count; i++)
-            {
-                totalTime += addFinalTime[i];
-            }
-            TimeSpan total = TimeSpan.FromSeconds(totalTime);
-            gameTime.text = "Final Time: " + total.ToString(@"mm\:ss");
-        }
-    }
-    */
 
     void GameOver()
     {
