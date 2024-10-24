@@ -1154,7 +1154,7 @@ MonoBehaviour:
   submitButton: {fileID: 853816560}
   feedbackText: {fileID: 1174740148}
   question: What is 10110101 in decimal?
-  correctAnswer: 106
+  correctAnswer: 181
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &170727035
@@ -8500,7 +8500,7 @@ MonoBehaviour:
   submitButton: {fileID: 853816560}
   feedbackText: {fileID: 1174740148}
   question: What is 99 in binary?
-  correctAnswer: '00100011 '
+  correctAnswer: 01100011
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &1400864613
