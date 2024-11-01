@@ -145,7 +145,7 @@ public class TotalGameTime : MonoBehaviour
 
     public void finalScore()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 10)
+        if (SceneManager.GetActiveScene().buildIndex == 12)
         {
             SceneManager.LoadSceneAsync(3);
         }
