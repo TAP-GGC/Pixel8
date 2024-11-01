@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Pixel Arcade.unity
+    guid: 6511c90c61004724d8aaefbc834ef20e
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Instructions.unity
+    guid: cc69cc450109c7343ad1e97bbf2b816f
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 2f85504ee9627134d98acd3fb2f2d9b6
   - enabled: 1

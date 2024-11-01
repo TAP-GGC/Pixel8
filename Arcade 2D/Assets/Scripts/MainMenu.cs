@@ -29,7 +29,7 @@ public class MainMenu : MonoBehaviour
             warningText.text = "";
         }
 
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(4);
     }
     public void PlayPlanet()
     {
@@ -40,7 +40,7 @@ public class MainMenu : MonoBehaviour
             warningText.text = "";
         }
 
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(7);
     }
 
     public void PlayPaint()
@@ -55,5 +55,15 @@ public class MainMenu : MonoBehaviour
             warningText.text = "You must play Binary Maze or Planet 01000010 first.";
         }
        
+    }
+
+    public void PixelArcadeLogo()
+    {
+        SceneManager.LoadScene("Tutorial Instructions");
+    }
+
+    public void TutorialInstructions()
+    {
+        SceneManager.LoadScene("Tutorial");
     }
 }
