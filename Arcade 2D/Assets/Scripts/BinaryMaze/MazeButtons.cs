@@ -30,29 +30,29 @@ public class MazeButtons : MonoBehaviour
     public void exitBinaryMaze()
     {
         // will make Binary exit button transition to the main menu
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(3);
     }
 
     public void levelCompleted()
     {
-        if(SceneManager.GetActiveScene().buildIndex == 3)
-        {
-            SceneManager.LoadSceneAsync(8);
-        }
-
-        if (SceneManager.GetActiveScene().buildIndex == 8)
-        {
-            SceneManager.LoadSceneAsync(9);
-        }
-
-        if (SceneManager.GetActiveScene().buildIndex == 9)
+        if(SceneManager.GetActiveScene().buildIndex == 5)
         {
             SceneManager.LoadSceneAsync(10);
         }
 
         if (SceneManager.GetActiveScene().buildIndex == 10)
         {
-            SceneManager.LoadSceneAsync(1);
+            SceneManager.LoadSceneAsync(11);
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 11)
+        {
+            SceneManager.LoadSceneAsync(12);
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 12)
+        {
+            SceneManager.LoadSceneAsync(3);
         }
 
 
@@ -60,7 +60,7 @@ public class MazeButtons : MonoBehaviour
 
     public void levelFailed()
     {
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(3);
     }
 
     public void ToggleHint()

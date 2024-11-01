@@ -75,7 +75,7 @@ public class Quiz : MonoBehaviour
         if(currentQuestionIndex == questionKeys.Count)
         {
             // will make Binary exit button transition to the main menu
-            SceneManager.LoadSceneAsync(1);
+            SceneManager.LoadSceneAsync(3);
         }
     }
 }

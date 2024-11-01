@@ -8,6 +8,6 @@ public class BinaryMazeMenu : MonoBehaviour
     public void PlayMazeGame()
     {
         // will make Binary play button transition to the title card
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadSceneAsync(5);
     }
 }
