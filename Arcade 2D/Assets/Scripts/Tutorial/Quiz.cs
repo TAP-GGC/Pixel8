@@ -119,7 +119,7 @@ public class Quiz : MonoBehaviour
     {
         if (currentQuestionIndex == questionKeys.Count)
         {
-            SceneManager.LoadSceneAsync(1);
+            SceneManager.LoadSceneAsync(3);
         }
     }
 }
