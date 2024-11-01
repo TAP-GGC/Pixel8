@@ -87,9 +87,9 @@ You can select from a range of audiences or a single audience. Examples:
 
 ## Outreach
 <b>Class Workshops - Georgia Gwinnett College: to promote the IT field to non-IT students.</b>
-* <b>Workshop #1:</b> date, Teacher's name, Online
-* <b>Workshop #2:</b>,date, Teacher's name, Online
-* <b>Workshop #3:</b> date, Teacher's name, In person
+* <b>Workshop #1:</b> October 22nd, 2024, Dr.Sherly Abraham, Online
+* <b>Workshop #2:</b> October 23rd, 2024, Dr.Sherly Abraham, Online
+* <b>Workshop #3:</b> October 24th, 2024, Dr. Felix Hernandez, In person
 * <b>Workshop #4:</b> date, Teacher's name, In person
 
 <b>Other Outreach Events</b>
@@ -109,7 +109,7 @@ The project is built with Unity as the main technology. Unity is a popular cross
 </p>
 
 ## Workshop Instructions 
-* Go to <b>https://slesure.itch.io/pixel-arcade.​</b>
+* Go to [https://slesure.itch.io/pixel-arcade](https://slesure.itch.io/pixel-arcade)
 
 * Read the description under the game to understand the details.​
 

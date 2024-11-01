@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
+using JetBrains.Annotations;
+
+
 
 public class Timer : MonoBehaviour
 {
@@ -13,6 +17,11 @@ public class Timer : MonoBehaviour
     public Text levelTime;
     public Enabled_Disabled gameOver;
 
+    //private Text level;
+    //public Text gameTime;
+
+    public List<string> playerTime = new List<string>();
+    public List<float> playerSeconds = new List<float>();
 
     // Start is called before the first frame update
     void Start()
@@ -27,8 +36,11 @@ public class Timer : MonoBehaviour
         {
             gameOver.DisableGameOver();
         }
+
+        //level.text = "";
+        //gameTime.text = "";
     }
-    
+
     // Update is called once per frame
     void Update()
     {
@@ -39,7 +51,7 @@ public class Timer : MonoBehaviour
             currentTimeText.text = time.ToString(@"mm\:ss");
             saveTimeData(currentTimeText);
 
-            if (currentTime >= 600) // Example: if the timer reaches 10 mins
+            if (currentTime >= 720) // Example: if the timer reaches 12 mins
             {
                 GameOver();
             }
@@ -60,29 +72,87 @@ public class Timer : MonoBehaviour
 
     public void saveTimeData(Text current)
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 5)
         {
             PlayerPrefs.SetFloat("Time1", currentTime);
             PlayerPrefs.SetString("Time1Text", currentTimeText.text);
+            PlayerPrefs.Save();
+        } 
+        else if (SceneManager.GetActiveScene().buildIndex == 10)
+        {
+            PlayerPrefs.SetFloat("Time2", currentTime);
+            PlayerPrefs.SetString("Time2Text", currentTimeText.text);
+            PlayerPrefs.Save();
+        } 
+        else if (SceneManager.GetActiveScene().buildIndex == 11)
+        {
+            PlayerPrefs.SetFloat("Time3", currentTime);
+            PlayerPrefs.SetString("Time3Text", currentTimeText.text);
             PlayerPrefs.Save();
         }
     }
 
     public void loadTimeData()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 5)
         {
+            //List<string> playerTime = new List<string>();
+            //List<float> playerSeconds = new List<float>();
+
             // Load the saved time and set it in the UI element
             float savedTime = PlayerPrefs.GetFloat("Time1"); // Default to 0 if no data is found
             string savedTimeText = PlayerPrefs.GetString("Time1Text"); // Default format
 
             currentTime = savedTime; // Restore the saved current time
             levelTime.text = "Time: " + savedTimeText; // Display the saved time
-   
-            if(savedTime > 0)
+
+            //playerTime.Add(savedTimeText);
+            //playerSeconds.Add(savedTime);
+
+            //playerTime.Add(PlayerPrefs.GetString("Time1Text"));
+            //playerSeconds.Add(PlayerPrefs.GetFloat("Time1"));
+            //finalTime(playerTime, playerSeconds);
+
+            if (savedTime > 0)
+            {
+                //StopTime();
+                //currentTime = 0;
+            }
+            PlayerPrefs.DeleteAll();
+        } 
+        else if(SceneManager.GetActiveScene().buildIndex == 10)
+        {
+            float savedTime = PlayerPrefs.GetFloat("Time2"); // Default to 0 if no data is found
+            string savedTimeText = PlayerPrefs.GetString("Time2Text"); // Default format
+
+            currentTime = savedTime; // Restore the saved current time
+            levelTime.text = "Time: " + savedTimeText; // Display the saved time
+
+            if (savedTime > 0)
             {
                 StopTime();
+                //currentTime = 0;
             }
+            //PlayerPrefs.DeleteAll();
+            
+        } 
+        else if (SceneManager.GetActiveScene().buildIndex == 11)
+        {
+            float savedTime = PlayerPrefs.GetFloat("Time3"); // Default to 0 if no data is found
+            string savedTimeText = PlayerPrefs.GetString("Time3Text"); // Default format
+
+            currentTime = savedTime; // Restore the saved current time
+            levelTime.text = "Time: " + savedTimeText; // Display the saved time
+
+            if (savedTime > 0)
+            {
+                StopTime();
+                //currentTime = 0;
+            }
+            //PlayerPrefs.DeleteAll();
+        } 
+        else
+        {
             PlayerPrefs.DeleteAll();
         }
     }

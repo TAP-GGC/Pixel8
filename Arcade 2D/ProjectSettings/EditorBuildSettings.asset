@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Pixel Arcade.unity
+    guid: 6511c90c61004724d8aaefbc834ef20e
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Instructions.unity
+    guid: cc69cc450109c7343ad1e97bbf2b816f
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 2f85504ee9627134d98acd3fb2f2d9b6
   - enabled: 1
@@ -29,6 +35,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Planet Scenes/PlanetMain.unity
     guid: be393d531c5a2fb4c872270ce51a1835
+  - enabled: 1
+    path: Assets/Scenes/Maze Scenes/Level 2.unity
+    guid: 9b6297c5dc1cca84b910eeca80ff4cd1
+  - enabled: 1
+    path: Assets/Scenes/Maze Scenes/level 3.unity
+    guid: f087aac057de749869ab532794c9877c
+  - enabled: 1
+    path: Assets/Scenes/Maze Scenes/FinalMazeScore.unity
+    guid: 1440833e4b10b8a4e9161f4a99de3e50
   - enabled: 1
     path: Assets/Scenes/Drawing/Drawing Title.unity
     guid: 0ef4ab76b2762eb49977bd64a7e9c19e

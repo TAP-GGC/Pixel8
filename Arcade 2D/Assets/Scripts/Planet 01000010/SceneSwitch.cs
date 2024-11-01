@@ -41,16 +41,16 @@ public class SceneSwitch : MonoBehaviour
 
     public void ExitButton()
     {
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(3);
     }
 
     public void PlayButton()
     {
-        SceneManager.LoadSceneAsync(5);
+        SceneManager.LoadSceneAsync(8);
     }
 
     public void StartButton() 
     {
-        SceneManager.LoadSceneAsync(6);
+        SceneManager.LoadSceneAsync(9);
     }
 }
