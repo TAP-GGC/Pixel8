@@ -90,6 +90,7 @@ You can select from a range of audiences or a single audience. Examples:
 
 ## Publications
 
+
 ## Outreach
 <b>Class Workshops - Georgia Gwinnett College: to promote the IT field to non-IT students.</b>
 * <b>Workshop #1:</b> October 22nd, 2024, Dr.Sherly Abraham, Online
@@ -99,7 +100,7 @@ You can select from a range of audiences or a single audience. Examples:
 
 <b>Other Outreach Events</b>
 *  <b>TAP Expo:</b> October 8th, 2024, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
-*  <b>Consortium for Computing Sciences in Colleges (CCSC):</b> November 2nd, 2024, Furman University: to promote tips for developing a successful project to introduction to programming and outreach.
+*  <b>Consortium for Computing Sciences in Colleges (CCSC):</b> November 1-2, 2024, Furman University: to promote tips for developing a successful project to introduction to programming and outreach.
 
   
 
