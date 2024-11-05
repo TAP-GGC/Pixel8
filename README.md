@@ -74,6 +74,7 @@ Example:
 
 1. <b>TAP Expo</b>, October 8, 2024, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
 2. <b>Class Workshops</b>, October 22-25, 2024, Georgia Gwinnett College: to promote the IT field to non-IT students.
+3. <b>CCSC:SE Conference</b>, November 1-2, 2024, Furman University: to present our project to people in IT field.
 
 ## :mag_right: Similar Projects
 <i>Use this section to link to a project done in the TAP program that is related in some way to your own. This can be a sister project done during your TAP semester or a TAP project done in the past. Example: </i> 
