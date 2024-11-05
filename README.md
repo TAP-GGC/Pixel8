@@ -89,9 +89,6 @@ You can select from a range of audiences or a single audience. Examples:
 
 
 ## Publications
-1. <b>TAP Expo</b>, October 8, 2024, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
-2. <b>Class Workshops</b>, October 22-25, 2024, Georgia Gwinnett College: to promote the IT field to non-IT students.
-3. <b>CCSC:SE Conference</b>, November 1-2, 2024, Furman University: to present our project to people in IT field.
 
 ## Outreach
 <b>Class Workshops - Georgia Gwinnett College: to promote the IT field to non-IT students.</b>
