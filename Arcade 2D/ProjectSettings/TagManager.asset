@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Logic
+  - QuestionPanel
+  - SubmitButton
+  - LevelComplete
+  - GameOver
+  - Hint
+  - map
   layers:
   - Default
   - TransparentFX
