@@ -33,7 +33,7 @@ You can select from a range of audiences or a single audience. Examples:
 * <b>Duration of Workshop:</b> 1 hour 
 * <b>Needed Materials:</b> Computer with internet access! (A mouse for convenience)
 * <b>Learning Outcomes:</b> The primary goal of this project is to teach participants how to read and write binary, hexadecimals, and decimals.
-* <b>Our Main Technology</b> :  Unity, Godot or ZEP. TBD
+* <b>Our Main Technology</b> :  Unity
 * [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their fellow classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
@@ -72,8 +72,8 @@ The objective of this project is to teach students about binary-related topics, 
 
 Example:
 
-1. <b>TAP Expo</b>, April 1, 2021, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
-2. <b>Class Workshops</b>, April 13-15, 2021, Georgia Gwinnett College: to promote the IT field to non-IT students.
+1. <b>TAP Expo</b>, October 8, 2024, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
+2. <b>Class Workshops</b>, October 22-25, 2024, Georgia Gwinnett College: to promote the IT field to non-IT students.
 
 ## :mag_right: Similar Projects
 <i>Use this section to link to a project done in the TAP program that is related in some way to your own. This can be a sister project done during your TAP semester or a TAP project done in the past. Example: </i> 
@@ -82,19 +82,11 @@ If you're interested in more workshops that utilize Scratch, check out [Space Me
 
 ## :computer: Technology
 
-* ZEP is a web-based metaverse platform that allows users to create customizable virtual spaces for purposes such as events, education, or remote work.
-* It provides a variety of free templates, from offices to escape rooms, and lets users add objects, design interactive experiences, and manage events in real-time.
-* ZEP supports features like live Q&A, quizzes, and Google Analytics integration, making it suitable for business and educational settings.
 * Built with web technologies like JavaScript and HTML5, it enables real-time collaboration and interactive environments directly through the browser​
 * Unity is a popular cross-platform game engine used for developing 2D, 3D, AR, VR and simulation-based projects.
-* Godot is an open-source game engine used for developing both 2D and 3D games. It's known for being beginner-friendly while offering advanced features for experienced developers.
 
-<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/Zep-Logo.png" width="200" height="100"> 
-ZEP: https://zep.us/en/home/spaces
 <img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/Unity-Logo.png" width="200" height="100">
  Unity: https://unity.com
-<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/Godot-Logo.png" width="200" height="80">
- Godot: https://godotengine.org
 
 </p>
 
