@@ -94,7 +94,7 @@ You can select from a range of audiences or a single audience. Examples:
 
 ## Publications
 1. <b>CCSC: SE Abstract Paper</b> - Celeste Echols, Seohyeon Kim, Shianne Lesure, Zuberi Thompson. Comparison of the Effectiveness of Two Games at Teaching Binary to Students Online and In-person, Consortium for Computing Sciences in Colleges: Southeastern Region (CCSC: SE), November 1-2, 2024, Greenville, SC.
-2. <b>CREATE Symposium Poster</b> - Celeste Echols, Seohyeon Kim, Shianne Lesure, Zuberi Thompson. Comparison of the Effectiveness of Games at Teaching Binary to Students Online and In-person, November 14th, 2024, Georgia Gwinnett College.
+2. <b>CREATE Symposium Poster</b> - Celeste Echols, Seohyeon Kim, Shianne Lesure, Zuberi Thompson. November 14th, 2024, Georgia Gwinnett College.
 
 ## Outreach
 1.  <b>TAP Expo:</b> October 8, 2024, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
