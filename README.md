@@ -5,6 +5,10 @@
   <img alt="Template Logo" src="https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Pixel%20ArcadeTransparent.png" width="" height="350" />
   <h1 align="center">Comparison of the Effectiveness of Games at Teaching Binary to Students Online vs In-Person</h1>
 </p>
+
+<p align="center">
+  An educational project for students by team Pixel 8
+</p>
 <!-- the emojis are not set in stone! If you'd like you can remove them entirely or select your own from https://gist.github.com/rxaviers/7360908 you are welcome to -->
 
 ## About
@@ -33,22 +37,24 @@ You can select from a range of audiences or a single audience. Examples:
 * <b>Difficulty Level:</b> Beginner
 * <b>Target Audience:</b> Middle School - College
 * <b>Duration of Workshop:</b> 1 hour 
+
 * <b>Needed Materials:</b> Pencil, Paper, Calculator, Computer with internet access
 * <b>Learning Outcomes:</b> The primary goal of this project is to teach participants binary concepts.
 * <b>Our Main Technology</b> : Unity
   
 [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
+
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
-[Commercial Video](https://github.com/TAP-GGC/NinjaTurtles/assets/157164928/94b037a6-8912-44da-8a8c-84c0b8a0afb8)
+[Pixel Arcade Commerical](https://youtu.be/XExO4BlIihA)
 
 <!-- videos can also be dragged and dropped into markdown files if you want them embedded -->
 
 ## Team: Pixel8
 
 <!-- Use the team photo of your choice once you've uploaded it to the team photo folder within the media folder -->
-<img alt="art featuring batman, wonder woman, and superman" src = "media/team photos/Team Photo.JPG" width="" height="300">
-
+<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/team%20photos/Pixel8_Team_Logo.jpg" width="" height="300">
+(Left to Right: Seohyeon Kim, Shianne Lesure, Celeste Echols, Zuberi Thompson)
 <!-- replace with full names of your team members -->
 
 * Shianne Lesure
@@ -87,21 +93,16 @@ You can select from a range of audiences or a single audience. Examples:
 
 
 ## Publications
-<!-- team members, then professors/advisors. "Name of Publication", event, month and day, year, Georgia Gwinnett College. -->
-<!--1. Team Member, Team Member, Team Member, John Doe, Jane Doe. "A Real Fake Workshop", Fake Event, April 1, 2024, Georgia Gwinnett College. -->
+1. <b>CCSC: SE Abstract Paper</b> - Celeste Echols, Seohyeon Kim, Shianne Lesure, Zuberi Thompson. Comparison of the Effectiveness of Two Games at Teaching Binary to Students Online and In-person, Consortium for Computing Sciences in Colleges: Southeastern Region (CCSC: SE), November 1-2, 2024, Greenville, SC.
+2. <b>CREATE Symposium Poster</b> - Celeste Echols, Seohyeon Kim, Shianne Lesure, Zuberi Thompson. November 14th, 2024, Georgia Gwinnett College.
 
 ## Outreach
-<b>Class Workshops - Georgia Gwinnett College: to promote the IT field to non-IT students.</b>
-* <b>Workshop #1:</b> October 22nd, 2024, Dr.Sherly Abraham, Online
-* <b>Workshop #2:</b> October 23rd, 2024, Dr.Sherly Abraham, Online
-* <b>Workshop #3:</b> October 24th, 2024, Dr. Felix Hernandez, In person
-* <b>Workshop #4:</b> October 25th, 2024, Dr. Albena Asenova-Belal, In person
+1.  <b>TAP Expo:</b> October 8, 2024, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
+2.  <b>Class Workshops:</b> October 22-25, 2024, Georgia Gwinnett College: to promote the IT field to non-IT students.
+3.  <b>Consortium for Computing Sciences in Colleges (CCSC):</b> November 1-2, 2024, Furman University: to promote tips for developing a successful project to introduction to programming and outreach.
+4.  <b>Super Saturday Series(S3):</b> November 16, 2024, Georgia Gwinnett College: to promote an IT and STEM career to middle school students.
 
-<b>Other Outreach Events</b>
-*  <b>TAP Expo:</b> October 8th, 2024, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
-*  <b>Consortium for Computing Sciences in Colleges (CCSC):</b> November 2nd, 2024, Furman University: to promote tips for developing a successful project to introduction to programming and outreach.
 
-  
 
 ## Similar Projects
 * If you're interested in more Unity workshops, you should check out projects like [Pizza Heist](https://github.com/TAP-GGC/TeamRocketPizza)!
@@ -109,9 +110,15 @@ You can select from a range of audiences or a single audience. Examples:
 ## Technology
 <p align="center">
 <img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/Unity-Logo.png" width="200" height="100">
+
+  <b>Unity's Website:</b> [https://unity.com](https://unity.com)
+
 </p>
 The project is built with Unity as the main technology. Unity is a popular cross-platform game engine used for developing 2D, 3D, AR, VR, and simulation-based projects. This technology will be used to build an interactive 2D game that will instruct participants about the basics of binary conversions and decimal conversions.  We plan to post the game online so the participants can play straight from the web which allows for easier access to the game for both our in-person and online participants.
+</p>
 
+</p>
+Need to explain why we choose this technology for our project.
 </p>
 
 ## Workshop Instructions 
@@ -127,4 +134,7 @@ The project is built with Unity as the main technology. Unity is a popular cross
 
 * If you finish early, feel free to explore and play the RGB paint game.
 
+## Project setup/Installation
+[![Installation](https://img.youtube.com/vi/DCd296jpmJo/0.jpg)](https://youtu.be/DCd296jpmJo)
 
+* For  instructions click the figure above 
