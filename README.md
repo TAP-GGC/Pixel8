@@ -46,7 +46,7 @@ You can select from a range of audiences or a single audience. Examples:
 
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
-[Commercial Video](https://github.com/TAP-GGC/NinjaTurtles/assets/157164928/94b037a6-8912-44da-8a8c-84c0b8a0afb8)
+[Pixel Arcade Commerical](https://youtu.be/XExO4BlIihA)
 
 <!-- videos can also be dragged and dropped into markdown files if you want them embedded -->
 
