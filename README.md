@@ -12,12 +12,12 @@
 <!-- the emojis are not set in stone! If you'd like you can remove them entirely or select your own from https://gist.github.com/rxaviers/7360908 you are welcome to -->
 
 ## About
-Our project provides students with the opportunity to develop an interest in the technology field through engaging with educational games involving the teaching of binary.
+Pixel Arcade is a 2D interactive game built with Unity with the purpose of teaching binary to students ranging from middle school to college. Unity uses C# for programming games in 3D, 2D, or even AR and VR. Pixel Arcade has two games that were used for teaching and one extra game that was more creative and fun that students could play after they learned the basics. The project provides students with the opportunity to develop an interest in the technology field through engaging with educational games. According to the surveys, games were found to be an effective method of teaching technology concepts such as binary.
 <!-- You can look at other TAP projects if you need a better idea of how to describe your workshop objectives -->
 
-This workshop will have students play an interactive game that will allow students to go through different games that will test their knowledge of binary. 
-This workshop will give a short presentation explaining TAP, binary coding, and the project. 
-After that,  participants will get the chance to play the game and enforce what they just learned. There will be tips and tricks included in each game to help further enhance the concept.
+Four workshops were conducted. Two workshops were online while the other two were in-person. The workshops allowed students to play the different games while testing their knowledge of binary. 
+A short presentation was given before the students played which included: introducing the group and TAP, teaching students what binary is and how to convert from decimal to binary and vice versa. 
+Afterwards, participants got the chance to play the game and enforce what they just learned. There were tips and tricks provided in each game to help further enhance the concepts.
 
 ## Project Information
 <!-- 
@@ -39,8 +39,8 @@ You can select from a range of audiences or a single audience. Examples:
 * <b>Duration of Workshop:</b> 1 hour 
 
 * <b>Needed Materials:</b> Pencil, Paper, Calculator, Computer with internet access
-* <b>Learning Outcomes:</b> The primary goal of this project is to teach participants binary concepts.
-* <b>Our Main Technology</b> : Unity
+* <b>Learning Outcomes:</b> The primary goal of this project is to teach participants what binary is, what it is used for and how to convert from binary to decimal and from decimal to binary.
+* <b>Our Main Technology</b> : Unity with C#
   
 [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 
@@ -57,13 +57,14 @@ You can select from a range of audiences or a single audience. Examples:
 (Left to Right: Seohyeon Kim, Shianne Lesure, Celeste Echols, Zuberi Thompson)
 <!-- replace with full names of your team members -->
 
-* Shianne Lesure
-  
-* Zuberi Thompson
-  
 * Seohyeon Kim
   
+* Shianne Lesure
+
 * Celeste Echols
+  
+* Zuberi Thompson
+
 
 ## Advisors
 <!-- the name of the two professors overseeing your TAP class -->
@@ -72,7 +73,7 @@ You can select from a range of audiences or a single audience. Examples:
 
 
 ## Project Description
-<b>Pixel Arcade</b> is an interactive 2D game that will instruct students about the basics of binary and was built using Unity. Binary is the basis of how computers, photo editing, RGB, audio, and many other technologies work, which is why we wanted to get students familiar with it early on. Participants will play a tutorial and then 3 mini-games. 
+<b>Pixel Arcade</b> is an interactive 2D game that will instruct students about the basics of binary. It was built using Unity and C#. Binary is the basis of how computers, photo editing, RGB, audio, and many other technologies work, which is why we wanted to get students familiar with it early on. Participants will play a tutorial and then 3 mini-games. 
 
 <p align = "left">
   <img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Binary_Maze_Light_Mode-removebg-preview.png"  height="120">
@@ -103,9 +104,9 @@ You can select from a range of audiences or a single audience. Examples:
 4.  <b>Super Saturday Series(S3):</b> November 16, 2024, Georgia Gwinnett College: to promote an IT and STEM career to middle school students.
 
 
-
+<!--
 ## Similar Projects
-* If you're interested in more Unity workshops, you should check out projects like [Pizza Heist](https://github.com/TAP-GGC/TeamRocketPizza)!
+* If you're interested in more Unity workshops, you should check out projects like [Pizza Heist](https://github.com/TAP-GGC/TeamRocketPizza)! -->
 
 ## Technology
 <p align="center">
@@ -114,11 +115,11 @@ You can select from a range of audiences or a single audience. Examples:
   <b>Unity's Website:</b> [https://unity.com](https://unity.com)
 
 </p>
-The project is built with Unity as the main technology. Unity is a popular cross-platform game engine used for developing 2D, 3D, AR, VR, and simulation-based projects. This technology will be used to build an interactive 2D game that will instruct participants about the basics of binary conversions and decimal conversions.  We plan to post the game online so the participants can play straight from the web which allows for easier access to the game for both our in-person and online participants.
+The project is built with Unity as the main technology. Unity is a popular cross-platform game engine used for developing 2D, 3D, AR, VR, and simulation-based projects. This technology was used to build an interactive 2D game that instruct participants about the basics of binary conversions and decimal conversions.  The game was posted online on itch.io so participants could play straight from the web which allows for easier access to the game for both our in-person and online participants.
 </p>
 
 </p>
-Need to explain why we choose this technology for our project.
+Unity is a powerful game engine that makes it easy for developers to get a game up and running very quickly and smoothly. One of our team members already had prior knowledge of unity which made it a great option. C#, which is the programming language that unity uses, is also similar to java which is taught at GGC. We originally were going to make the game 3D which is another reason why we chose Unity. But ultimately, unity had more resources available for people learning how to use the game engine such as assets, videos, and documentation. 
 </p>
 
 ## Workshop Instructions 
@@ -137,4 +138,8 @@ Need to explain why we choose this technology for our project.
 ## Project setup/Installation
 [![Installation](https://img.youtube.com/vi/DCd296jpmJo/0.jpg)](https://youtu.be/DCd296jpmJo)
 
-* For  instructions click the figure above 
+* For  instructions click the figure above
+
+## Project Usage
+
+* 
