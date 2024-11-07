@@ -135,6 +135,6 @@ Need to explain why we choose this technology for our project.
 * If you finish early, feel free to explore and play the RGB paint game.
 
 ## Project setup/Installation
-[![Watch the video](https://img.youtube.com/vi/DCd296jpmJo/0.jpg)](https://youtu.be/DCd296jpmJo)
+[![Installation](https://img.youtube.com/vi/DCd296jpmJo/0.jpg)](https://youtu.be/DCd296jpmJo)
 
 * For  instructions click the figure above 
