@@ -135,5 +135,5 @@ Need to explain why we choose this technology for our project.
 * If you finish early, feel free to explore and play the RGB paint game.
 
 ## Project setup/Installation
-[Instalation](https://github.com/TAP-GGC/Pixel8/blob/main/media/videos/Instalation.mp4)
+[Installation](https://github.com/TAP-GGC/Pixel8/blob/main/media/videos/Instalation.mp4)
 
