@@ -110,7 +110,7 @@ You can select from a range of audiences or a single audience. Examples:
 
 ## Technology
 <p align="center">
-<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/Unity-Logo.png" width="200" height="100">
+<img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/UnityLogoDark.png" width="200" height="100">
 </p>
 <p align="center">
 <b>Unity's Website:</b> https://unity.com](https://unity.com)
