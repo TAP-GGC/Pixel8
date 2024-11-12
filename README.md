@@ -2,7 +2,7 @@
 <!-- This section is where you will replace the link to your transparent logo, the title of your project, and the very short description of your project -->
 <!-- If you used Canva to make your icon and don't want to pay for a background remover, you can use the website https://www.remove.bg/ to do so -->
 <p align="center">
-  <img alt="Template Logo" src="https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Pixel%20ArcadeTransparent.png" width="" height="350" />
+  <img alt="Template Logo" src="https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Pixel%20ArcadeTransparent.png" width="" height="250" />
   <h1 align="center">Comparison of the Effectiveness of Games at Teaching Binary to Students Online vs In-Person</h1>
 </p>
 
@@ -104,17 +104,18 @@ You can select from a range of audiences or a single audience. Examples:
 4.  <b>Super Saturday Series(S3):</b> November 16, 2024, Georgia Gwinnett College: to promote an IT and STEM career to middle school students.
 
 
-<!--
+
 ## Similar Projects
-* If you're interested in more Unity workshops, you should check out projects like [Pizza Heist](https://github.com/TAP-GGC/TeamRocketPizza)! -->
+* If you're interested in more Unity workshops, you should check out projects like [Pizza Heist](https://github.com/TAP-GGC/TeamRocketPizza)! 
 
 ## Technology
 <p align="center">
 <img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/Unity-Logo.png" width="200" height="100">
-
-  <b>Unity's Website:</b> [https://unity.com](https://unity.com)
-
 </p>
+<p align="center">
+<b>Unity's Website:</b> https://unity.com](https://unity.com)
+</p>
+
 The project is built with Unity as the main technology. Unity is a popular cross-platform game engine used for developing 2D, 3D, AR, VR, and simulation-based projects. This technology was used to build an interactive 2D game that instruct participants about the basics of binary conversions and decimal conversions.  The game was posted online on itch.io so participants could play straight from the web which allows for easier access to the game for both our in-person and online participants.
 </p>
 
@@ -138,8 +139,19 @@ Unity is a powerful game engine that makes it easy for developers to get a game 
 ## Project setup/Installation
 [![Installation](https://img.youtube.com/vi/DCd296jpmJo/0.jpg)](https://youtu.be/DCd296jpmJo)
 
-* For  instructions click the figure above
+<i>For  instructions click the figure above</i>
+
 
 ## Project Usage
+<i>Instructions for playing each game are provided within the game itself by utilizing the help buttons~!</i>
 
-* 
+* <b>Tutorial:</b> There are three question types that are shown within the tutorial that mimic questions that will be asked in the games. Attempt to answer them! If a user gets stuck, press the help button and it will provide guidance. If a user ever gets a question wrong, a pop-up will appear that displays a hint for the user. Multiple hints are provided for people who need extra guidance! Once all three questions are answered correctly, click the exit button to enter the main menu!
+
+* <b>Binary Maze:</b> There are three seperate levels for this game. The objective is to answer all the questions for each level while staying under 12 minutes for each level.
+  * 1st level: Users must go through the maze to find and answer all 10 questions on power of 2 questions. There is a minimap that can be toggeled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
+  * 2nd level: Users must go through the maze to find and answer all 10 questions on binary conversion and decimal conversion using 4-bits. There is a minimap that can be toggeled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
+  * 3rd level: Users must go through the maze to find and answer all 10 questions on binary conversion and decimal conversion using 8-bits. There is a minimap that can be toggeled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
+
+* <b>Planet Binary:</b> Users are competing against an NPC, non-playable character, to answer all the questions and make it to the end of the board game. The questions include conceptual binary questions, conversions from binary to decimal and from decimal to binary using 4-bits and 8-bits, and lastly power of 2 questions. Users will roll the dice to determine how many spaces they can move if they get the answer correct. Then they can answer the question and see if they are allowed to move. The game ends when either the player or the NPC answers all the questions and reach the end. 
+
+* <b>RGB Paint:</b> This game is an explorative, creative game that allows users to visually see how binary changes RGB colors. 
