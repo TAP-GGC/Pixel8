@@ -114,7 +114,7 @@ Pixel Arcade Commerical<br>
 <img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/UnityLogoDark.png" width="200" height="100">
 </p>
 <p align="center">
-<b>Unity's Website:</b> https://unity.com](https://unity.com)
+<b>Unity's Website:</b> https://unity.com
 </p>
 
 <table>
@@ -150,6 +150,8 @@ Unity is a powerful game engine that makes it easy for developers to get a game 
 [![Installation](https://img.youtube.com/vi/DCd296jpmJo/0.jpg)](https://youtu.be/DCd296jpmJo)
 
 <i>For  instructions click the figure above</i>
+<br>
+[For more installation videos click here](https://www.youtube.com/watch?v=skBEu32hGTg)
 
 
 ## Project Usage
