@@ -46,7 +46,8 @@ You can select from a range of audiences or a single audience. Examples:
 
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
-[Pixel Arcade Commerical](https://youtu.be/XExO4BlIihA)
+Pixel Arcade Commerical<br>
+[<img alt="Template Logo" src="https://img.itch.zone/aW1nLzE4MDk4MDYxLnBuZw==/original/YXx1l4.png" width="" height="250" />](https://www.youtube.com/watch?v=aLQnyCPmMPg)
 
 <!-- videos can also be dragged and dropped into markdown files if you want them embedded -->
 
