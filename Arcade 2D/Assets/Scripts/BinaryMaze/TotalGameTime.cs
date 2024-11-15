@@ -76,66 +76,6 @@ public class TotalGameTime : MonoBehaviour
         gameTime.text = "Final Time: " + total.ToString(@"mm\:ss");
     }
 
-    /*
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        int countLevel = 1;
-        float totalTime = 0;
-        level.text = "";
-        //level.text = "Time: " + PlayerPrefs.GetString("Time1Text");
-        //TimeSpan total = TimeSpan.FromSeconds(PlayerPrefs.GetFloat("Time1"));
-        //gameTime.text = "Final Time: " + total.ToString(@"mm\:ss");
-
-
-
-        playerTime.Add(PlayerPrefs.GetString("Time1Text"));
-        playerSeconds.Add(PlayerPrefs.GetFloat("Time1"));
-
-        playerTime.Add(PlayerPrefs.GetString("Time2Text"));
-        playerSeconds.Add(PlayerPrefs.GetFloat("Time2"));
-
-        playerTime.Add(PlayerPrefs.GetString("Time3Text"));
-        playerSeconds.Add(PlayerPrefs.GetFloat("Time3"));
-
-        foreach (string levelTime in playerTime)
-        {
-            Debug.Log("Time: " + levelTime + "\n");
-            level.text += "Level " + countLevel + " Time: " + levelTime + "\n";
-            countLevel++;
-        }
-
-        foreach (float addFinalTime in playerSeconds)
-        {
-            totalTime += addFinalTime;
-        }
-        TimeSpan total = TimeSpan.FromSeconds(PlayerPrefs.GetFloat("Time1") + PlayerPrefs.GetFloat("Time2") + PlayerPrefs.GetFloat("Time3"));
-        gameTime.text = "Final Time: " + total.ToString(@"mm\:ss");
-
-        if (finalTimeInventory != null)
-        {
-            foreach (string levelTime in finalTimeInventory.playerTime)
-            {
-                Debug.Log("Time: " + levelTime + "\n");
-                level.text += "Level " + countLevel + " Time: " + levelTime + "\n";
-            }
-
-            foreach (float addFinalTime in finalTimeInventory.playerSeconds)
-            {
-                totalTime += addFinalTime;
-            }
-
-            //TimeSpan total = TimeSpan.FromSeconds(totalTime);
-            //gameTime.text = "Final Time: " + total.ToString(@"mm\:ss");
-        }
-        else
-        {
-            Debug.Log("Inventory is empty.");
-        }
-
-    }
-    */
 
     // Update is called once per frame
     void Update()
