@@ -3,7 +3,7 @@
 <!-- If you used Canva to make your icon and don't want to pay for a background remover, you can use the website https://www.remove.bg/ to do so -->
 <p align="center">
   <img alt="Template Logo" src="https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Pixel%20ArcadeTransparent.png" width="" height="250" />
-  <h1 align="center">Comparison of the Effectiveness of Games at Teaching Binary to Students Online vs In-Person</h1>
+  <h1 align="center">Teaching Binary: A Comparison of Game-Based Learning Online vs In-Person</h1>
 </p>
 
 <p align="center">
