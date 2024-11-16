@@ -31,7 +31,7 @@ public class QuizManager : MonoBehaviour
 
     public void Exit()
     {
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(3);
     }
     
     public void GameOver()

@@ -14480,7 +14480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: What is 12 in binary?
+      value: What is 12 in binary?(using 4 bits)
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -16843,7 +16843,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: What is 10 in binary?
+      value: What is 10 in binary?(using 4 bits)
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -16863,7 +16863,7 @@ PrefabInstance:
       objectReference: {fileID: 1605380331}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 0010
+      value: 1010
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
