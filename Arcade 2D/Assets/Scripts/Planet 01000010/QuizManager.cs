@@ -17,12 +17,13 @@ public class QuizManager : MonoBehaviour
     public GameObject QuizPanel;
     public GameObject GameOverPanel;
 
-
     public int totalQuestion = 0;
     public int score = 0;
+    private int wrongScore = 0;
 
     private void Start()
     {
+        score = 0;
         totalQuestion = QnA.Count;
         QuizPanel.SetActive(true);
         GameOverPanel.SetActive(false);
@@ -38,7 +39,7 @@ public class QuizManager : MonoBehaviour
     {
         QuizPanel.SetActive(false);
         GameOverPanel.SetActive(true);
-        ScoreText.text = "Score: " + score + "/" + totalQuestion;
+        ScoreText.text = "Score: " + score + "/" + (score + wrongScore);
     }
     
     public void Correct() 
@@ -52,6 +53,7 @@ public class QuizManager : MonoBehaviour
 
     public void Wrong()
     {
+        wrongScore++;
         //Don't move player
         //Make button go red
         QnA.RemoveAt(currentQuestion);

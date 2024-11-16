@@ -9,6 +9,7 @@ public class Game : MonoBehaviour
 {
     //Reference to UI game objects
     public GameObject winText;
+    string winner;
     [SerializeField] public GameObject player1MoveText;
     [SerializeField] public GameObject npcMoveText;
 
@@ -33,7 +34,7 @@ public class Game : MonoBehaviour
     // Start is called before the first frame update
     void Start() { 
         //Finds the UI elements so we can control them
-        winText = GameObject.Find("WinnerText");
+        winText.GetComponent<TextMeshProUGUI>().SetText(" ");
         //player1MoveText = GameObject.Find("Player1MoveText");
         //npcMoveText = GameObject.Find("NPCMoveText");
 
@@ -66,6 +67,10 @@ public class Game : MonoBehaviour
         {
             instructions.SetActive(false);
         }
+        if (winText != null)
+        {
+            winText.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -95,8 +100,9 @@ public class Game : MonoBehaviour
         if (player1.GetComponent<FollowPath>().waypointIndex ==
             player1.GetComponent<FollowPath>().waypoints.Length)
         {
-            winText.GetComponent<TextMeshProUGUI>().SetText("Player 1 Wins!!");
-            //winText.SetActive(true);
+            winner = "Player 1 Wins!!";
+            winText.GetComponent<TextMeshProUGUI>().SetText(winner);
+            winText.SetActive(true);
             //player1MoveText.SetActive(false);
             //npcMoveText.SetActive(false);
             gameOver = true;
@@ -110,8 +116,9 @@ public class Game : MonoBehaviour
         if (player2.GetComponent<FollowPath>().waypointIndex ==
             player2.GetComponent<FollowPath>().waypoints.Length)
         {
-            winText.GetComponent<TextMeshProUGUI>().SetText("NPC Wins!!");
-            //winText.SetActive(true);
+            winner = "NPC Wins!!";
+            winText.GetComponent<TextMeshProUGUI>().SetText(winner);
+            winText.SetActive(true);
             //player1MoveText.gameObject.SetActive(false);
             //npcMoveText.gameObject.SetActive(false);
             gameOver = true;
