@@ -26,7 +26,7 @@ public class SceneSwitch : MonoBehaviour
 
     public void LoadNewGame()
     {
-        SceneManager.LoadScene(Scene.PlanetMain.ToString());
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void LoadTitle()

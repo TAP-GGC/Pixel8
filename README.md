@@ -3,7 +3,7 @@
 <!-- If you used Canva to make your icon and don't want to pay for a background remover, you can use the website https://www.remove.bg/ to do so -->
 <p align="center">
   <img alt="Template Logo" src="https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Pixel%20ArcadeTransparent.png" width="" height="250" />
-  <h1 align="center">Comparison of the Effectiveness of Games at Teaching Binary to Students Online vs In-Person</h1>
+  <h1 align="center">Teaching Binary: A Comparison of Game-Based Learning Online vs In-Person</h1>
 </p>
 
 <p align="center">
@@ -46,7 +46,8 @@ You can select from a range of audiences or a single audience. Examples:
 
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
-[Pixel Arcade Commerical](https://youtu.be/XExO4BlIihA)
+Pixel Arcade Commerical<br>
+[<img alt="Template Logo" src="https://img.itch.zone/aW1nLzE4MDk4MDYxLnBuZw==/original/YXx1l4.png" width="" height="250" />](https://www.youtube.com/watch?v=aLQnyCPmMPg)
 
 <!-- videos can also be dragged and dropped into markdown files if you want them embedded -->
 
@@ -113,8 +114,17 @@ You can select from a range of audiences or a single audience. Examples:
 <img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/UnityLogoDark.png" width="200" height="100">
 </p>
 <p align="center">
-<b>Unity's Website:</b> https://unity.com](https://unity.com)
+<b>Unity's Website:</b> https://unity.com
 </p>
+
+<table>
+  <tr>
+    <h></h>
+  </tr>
+  <tr>
+    <h></h>
+  </tr>
+</table>
 
 The project is built with Unity as the main technology. Unity is a popular cross-platform game engine used for developing 2D, 3D, AR, VR, and simulation-based projects. This technology was used to build an interactive 2D game that instruct participants about the basics of binary conversions and decimal conversions.  The game was posted online on itch.io so participants could play straight from the web which allows for easier access to the game for both our in-person and online participants.
 </p>
@@ -140,6 +150,8 @@ Unity is a powerful game engine that makes it easy for developers to get a game 
 [![Installation](https://img.youtube.com/vi/DCd296jpmJo/0.jpg)](https://youtu.be/DCd296jpmJo)
 
 <i>For  instructions click the figure above</i>
+<br>
+[For more installation videos click here](https://www.youtube.com/watch?v=skBEu32hGTg)
 
 
 ## Project Usage

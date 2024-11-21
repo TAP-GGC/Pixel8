@@ -20,6 +20,8 @@ public class FollowPath : MonoBehaviour
     void Start()
     {
         //Places player at the first waypoint
+        moveAllowed = false;
+        waypointIndex = 0;
         transform.position = waypoints[waypointIndex].transform.position;
     }
 

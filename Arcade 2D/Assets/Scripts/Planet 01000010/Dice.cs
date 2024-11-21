@@ -11,11 +11,12 @@ public class Dice : MonoBehaviour
     public GameObject npcW_Text;
     public GameObject npcC_Text;
 
+
     // Reference to sprite renderer to change sprites
     private SpriteRenderer rend;
 
     //Player's turn variable (for multiplayer)
-    public static int whosTurn = 1;
+    [SerializeField] public static int whosTurn = 1;
 
     //Blocks player rolling of die until current player's turn is over
     public static bool coroutineAllowed = true;
@@ -26,6 +27,9 @@ public class Dice : MonoBehaviour
     // Use this for initialization
     private void Start()
     {
+        coroutineAllowed = true;
+        randomNumber = 0;
+        whosTurn = 1;
         // Assign Renderer component
         rend = GetComponent<SpriteRenderer>();
 
@@ -53,6 +57,11 @@ public class Dice : MonoBehaviour
         if (!Game.gameOver && coroutineAllowed)
         {
             StartCoroutine("RollTheDice");
+            Answers.choice1.interactable = true;
+            Answers.choice2.interactable = true;
+            Answers.choice3.interactable = true;
+            Answers.choice4.interactable = true;
+
         }
     }
 
@@ -64,12 +73,11 @@ public class Dice : MonoBehaviour
         }
         if (!Game.gameOver && coroutineAllowed)
         {
-
             Debug.Log("NPC is rolling the dice");
             StartCoroutine("RollTheDice");
-            randomNumber = Random.Range(0, 2);
+            randomNumber = Random.Range(0, 11);
             Debug.Log(randomNumber);
-            if (randomNumber == 1)
+            if (randomNumber <= 6)
             {
                 Debug.Log("NPC got the question right");
                 StartCoroutine(DisplayNPCC_TextAfterDelay(2f));
