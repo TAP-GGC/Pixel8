@@ -73,8 +73,8 @@ Pixel Arcade Commerical<br>
 * Dr. Cindy Robertson
 
 
-## Project Description
-<b>Pixel Arcade</b> is an interactive 2D game that will instruct students about the basics of binary. It was built using Unity and C#. Binary is the basis of how computers, photo editing, RGB, audio, and many other technologies work, which is why we wanted to get students familiar with it early on. Participants will play a tutorial and then 3 mini-games. 
+## Project Description 
+<b>Pixel Arcade</b> is a collection of interactive 2D games that will instruct students about the basics of binary. It was built using Unity and C#. Binary is the basis of how computers, photo editing, RGB, audio, and many other technologies work, which is why we wanted to get students familiar with it early on. Participants will play a tutorial and then 3 mini-games. 
 
 <p align = "left">
   <img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/logos/Binary_Maze_Light_Mode-removebg-preview.png"  height="120">
@@ -95,14 +95,14 @@ Pixel Arcade Commerical<br>
 
 
 ## Publications
-1. <b>CCSC: SE Abstract Paper</b> - Celeste Echols, Seohyeon Kim, Shianne Lesure, Zuberi Thompson. Comparison of the Effectiveness of Two Games at Teaching Binary to Students Online and In-person, Consortium for Computing Sciences in Colleges: Southeastern Region (CCSC: SE), November 1-2, 2024, Greenville, SC.
-2. <b>CREATE Symposium Poster</b> - Celeste Echols, Seohyeon Kim, Shianne Lesure, Zuberi Thompson. November 14th, 2024, Georgia Gwinnett College.
+1. <b>CREATE Symposium Poster</b> - Celeste Echols, Seohyeon Kim, Shianne Lesure, Zuberi Thompson. November 14th, 2024, Georgia Gwinnett College.
 
 ## Outreach
 1.  <b>TAP Expo:</b> October 8, 2024, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
 2.  <b>Class Workshops:</b> October 22-25, 2024, Georgia Gwinnett College: to promote the IT field to non-IT students.
 3.  <b>Consortium for Computing Sciences in Colleges (CCSC):</b> November 1-2, 2024, Furman University: to promote tips for developing a successful project to introduction to programming and outreach.
-4.  <b>Super Saturday Series(S3):</b> November 16, 2024, Georgia Gwinnett College: to promote an IT and STEM career to middle school students.
+4.  <b>GGC CREATE Symposium:</b> November 14, 2024, Georgia Gwinnett College: to promote the IT field to non-IT students.
+5.  <b>Super Saturday Series(S3):</b> November 16, 2024, Georgia Gwinnett College: to promote an IT and STEM career to middle school students.
 
 
 
@@ -160,10 +160,10 @@ Unity is a powerful game engine that makes it easy for developers to get a game 
 * <b>Tutorial:</b> There are three question types that are shown within the tutorial that mimic questions that will be asked in the games. Attempt to answer them! If a user gets stuck, press the help button and it will provide guidance. If a user ever gets a question wrong, a pop-up will appear that displays a hint for the user. Multiple hints are provided for people who need extra guidance! Once all three questions are answered correctly, click the exit button to enter the main menu!
 
 * <b>Binary Maze:</b> There are three seperate levels for this game. The objective is to answer all the questions for each level while staying under 12 minutes for each level.
-  * 1st level: Users must go through the maze to find and answer all 10 questions on power of 2 questions. There is a minimap that can be toggeled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
+  * 1st level: Users must go through the maze to find and answer all 10 questions on the base power of 2 questions. There is a minimap that can be toggled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
   * 2nd level: Users must go through the maze to find and answer all 10 questions on binary conversion and decimal conversion using 4-bits. There is a minimap that can be toggeled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
-  * 3rd level: Users must go through the maze to find and answer all 10 questions on binary conversion and decimal conversion using 8-bits. There is a minimap that can be toggeled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
+  * 3rd level: Users must go through the maze to find and answer all 10 questions on binary conversion and decimal conversion using 8-bits. There is a minimap that can be toggled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
 
-* <b>Planet Binary:</b> Users are competing against an NPC, non-playable character, to answer all the questions and make it to the end of the board game. The questions include conceptual binary questions, conversions from binary to decimal and from decimal to binary using 4-bits and 8-bits, and lastly power of 2 questions. Users will roll the dice to determine how many spaces they can move if they get the answer correct. Then they can answer the question and see if they are allowed to move. The game ends when either the player or the NPC answers all the questions and reach the end. 
+* <b>Planet Binary:</b> Users are competing against an NPC(non-playable character), to answer all the questions and make it to the end of the board game. The questions include conceptual binary questions, conversions from binary to decimal and from decimal to binary using 4-bits and 8-bits, and lastly the base power of 2 questions. Users will roll the dice to determine how many spaces they can move if they get the answer correct. Then they can answer the question and see if they are allowed to move. The game ends when either the player or the NPC answers all the questions and reach the end. 
 
 * <b>RGB Paint:</b> This game is an explorative, creative game that allows users to visually see how binary changes RGB colors. 
