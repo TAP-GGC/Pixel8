@@ -17,7 +17,7 @@ Pixel Arcade is a 2D interactive game built with Unity with the purpose of teach
 
 Four workshops were conducted. Two workshops were online while the other two were in-person. The workshops allowed students to play the different games while testing their knowledge of binary. 
 A short presentation was given before the students played which included: introducing the group and TAP, teaching students what binary is and how to convert from decimal to binary and vice versa. 
-Afterwards, participants got the chance to play the game and enforce what they just learned. There were tips and tricks provided in each game to help further enhance the concepts.
+Afterward, participants got the chance to play the game and enforce what they just learned. There were tips and tricks provided in each game to help further enhance the concepts.
 
 ## Project Information
 <!-- 
@@ -95,7 +95,8 @@ Pixel Arcade Commerical<br>
 
 
 ## Publications
-1. <b>CREATE Symposium Poster</b> - Celeste Echols, Seohyeon Kim, Shianne Lesure, Zuberi Thompson. November 14th, 2024, Georgia Gwinnett College.
+1. <b>CREATE Symposium</b> - Lesure, S., Thompson, Z., Echols, C., Kim, S., Gunay, G., Robertson, C. (2024, November 14) Comparison of the Effectiveness of Two Games at Teaching Binary to Students.CREATE Symposium, Lawrenceville, GA.
+2. <b>CCSC</b> - Poster "Comparison of the Effectiveness of Two Games at Teaching Binary to Students" by Lesure, S., Thompson, Z., Echols, C., Kim, S. presented at the workshop by Anca Doloc-Mihu, Cindy Robertson and Cengiz Gunay titled “Tips and Tricks for Developing Successful Technology Projects for Introduction to Programming and Outreach” at the 38th Annual CCSC: Southeastern Conference at Furman University on Nov 1-2, 2024.
 
 ## Outreach
 1.  <b>TAP Expo:</b> October 8, 2024, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
