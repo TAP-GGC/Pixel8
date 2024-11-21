@@ -26,15 +26,22 @@ public class Quiz : MonoBehaviour
         {
             { "What is 2^3?", "8" },
             { "What is 1101 in decimal?", "13" },
-            { "What is 50 in binary?", "110010" }
+            { "What is 50 in binary? (using 8 bits)", "00110010" }
         };
 
         // Initialize hints for each question
         hints = new Dictionary<string, List<string>>
         {
-            { "What is 2^3?", new List<string> { "Remember: 2^3 is the same as 2 * 2 * 2.", "The result is a single-digit number.", "2 * 2 * 2" } },
-            { "What is 1101 in decimal?", new List<string> { "Binary position values: 8, 4, 2, 1.", "Add the values of each '1' bit in 1101 based on position.", "8+4+0+1" } },
-            { "What is 50 in binary?", new List<string> { "Subtract 50 by the highest power of 2^x without going over then repeat till 0", "50 - 32 = 18", "18 - 16 = 2", "2 - 2 = 0", "Fill in 1 in the corresponding 2^x you used", "50 - 32 = 18 | 18 - 16 = 2 | 2 - 2 = 0 \n 110010" } }
+            { "What is 2^3?", new List<string> { "Remember: 2^3 is the same as 2 * 2 * 2.", 
+            "The result is a single-digit number.", "2 * 2 * 2", "Answer = 8"} },
+
+            { "What is 1101 in decimal?", new List<string> { "Binary position values: 8, 4, 2, 1.",
+             "Add the values of each '1' bit in 1101 based on position.", "8+4+0+1", "Answer = 13"} },
+
+            { "What is 50 in binary? (using 8 bits)", new List<string> { 
+                "Subtract 50 by the highest power of 2^x without going over then repeat till 0",
+                 "50 - 32 = 18", "18 - 16 = 2", "2 - 2 = 0", "Fill in 1 in the corresponding 2^x you used",
+                  "50 - 32 = 18 | 18 - 16 = 2 | 2 - 2 = 0 \n 110010", "Answer = 00110010"} }
         };
 
         questionKeys = new List<string>(quizQuestions.Keys);
