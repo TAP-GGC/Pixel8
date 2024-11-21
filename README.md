@@ -95,7 +95,7 @@ Pixel Arcade Commerical<br>
 
 
 ## Publications
-1. <b>CREATE Symposium</b> - Lesure, S., Thompson, Z., Echols, C., Kim, S., Gunay, G., Robertson, C. (2024, November 14) Comparison of the Effectiveness of Two Games at Teaching Binary to Students.CREATE Symposium, Lawrenceville, GA.
+1. <b>CREATE Symposium</b> - Lesure, S., Thompson, Z., Echols, C., Kim, S., Gunay, G., Robertson, C. (2024, November 14) Comparison of the Effectiveness of Two Games at Teaching Binary to Students.CREATE Symposium, Georgia Gwinnett College, Lawrenceville, GA.
 2. <b>CCSC</b> - Poster "Comparison of the Effectiveness of Two Games at Teaching Binary to Students" by Lesure, S., Thompson, Z., Echols, C., Kim, S. presented at the workshop by Anca Doloc-Mihu, Cindy Robertson and Cengiz Gunay titled “Tips and Tricks for Developing Successful Technology Projects for Introduction to Programming and Outreach” at the 38th Annual CCSC: Southeastern Conference at Furman University on Nov 1-2, 2024.
 
 ## Outreach
