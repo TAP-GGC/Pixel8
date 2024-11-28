@@ -889,8 +889,8 @@ MonoBehaviour:
   answerInput: {fileID: 1938783261}
   submitButton: {fileID: 1605380331}
   feedbackText: {fileID: 1752016791}
-  question: What is 00011101 in decimal?
-  correctAnswer: 29
+  question: 2^x = 4
+  correctAnswer: 2
   logic: {fileID: 0}
   panel: {fileID: 0}
 --- !u!1 &99792452
@@ -13356,7 +13356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: 'What is 0101 in decimal? '
+      value: 2^7
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -13376,7 +13376,7 @@ PrefabInstance:
       objectReference: {fileID: 1605380331}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 5
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -14480,7 +14480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: What is 12 in binary?(using 4 bits)
+      value: 2^6
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -14500,7 +14500,7 @@ PrefabInstance:
       objectReference: {fileID: 1605380331}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 1100
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
@@ -16843,7 +16843,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: question
-      value: What is 10 in binary?(using 4 bits)
+      value: 2^x = 64
       objectReference: {fileID: 0}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: answerInput
@@ -16863,7 +16863,7 @@ PrefabInstance:
       objectReference: {fileID: 1605380331}
     - target: {fileID: 5368952653848095845, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: correctAnswer
-      value: 1010
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5762605552445398057, guid: b87ce25fa079b7e4ab7f1fcdd3b56b6a, type: 3}
       propertyPath: m_LocalScale.y
