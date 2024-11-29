@@ -37,7 +37,7 @@ public class MazeButtons : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().buildIndex == 5)
         {
-            SceneManager.LoadSceneAsync(3);
+            SceneManager.LoadSceneAsync(10);
         }
 
         if (SceneManager.GetActiveScene().buildIndex == 10)
@@ -60,7 +60,21 @@ public class MazeButtons : MonoBehaviour
 
     public void levelFailed()
     {
-        SceneManager.LoadSceneAsync(3);
+        // SceneManager.LoadSceneAsync(3);
+        if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            SceneManager.LoadSceneAsync(5);
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 10)
+        {
+            SceneManager.LoadSceneAsync(10);
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 11)
+        {
+            SceneManager.LoadSceneAsync(11);
+        }
     }
 
     public void ToggleHint()
