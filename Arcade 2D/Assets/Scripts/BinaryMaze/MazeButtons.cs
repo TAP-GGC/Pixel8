@@ -60,7 +60,11 @@ public class MazeButtons : MonoBehaviour
 
     public void levelFailed()
     {
-        // SceneManager.LoadSceneAsync(3);
+         SceneManager.LoadSceneAsync(3);
+    }
+
+    public void retryLevel()
+    {
         if (SceneManager.GetActiveScene().buildIndex == 5)
         {
             SceneManager.LoadSceneAsync(5);
