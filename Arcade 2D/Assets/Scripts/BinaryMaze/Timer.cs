@@ -51,7 +51,7 @@ public class Timer : MonoBehaviour
             currentTimeText.text = time.ToString(@"mm\:ss");
             saveTimeData(currentTimeText);
 
-            if (currentTime >= 60) //720) // Example: if the timer reaches 12 mins
+            if (currentTime >= 720) //720) // Example: if the timer reaches 12 mins
             {
                 GameOver();
             }
@@ -116,7 +116,7 @@ public class Timer : MonoBehaviour
             if (savedTime > 0)
             {
                 //StopTime();
-                //currentTime = 0;
+                currentTime = 0;
             }
             PlayerPrefs.DeleteAll();
         } 
@@ -130,8 +130,8 @@ public class Timer : MonoBehaviour
 
             if (savedTime > 0)
             {
-                StopTime();
-                //currentTime = 0;
+                //StopTime();
+                currentTime = 0;
             }
             //PlayerPrefs.DeleteAll();
             
@@ -147,7 +147,7 @@ public class Timer : MonoBehaviour
             if (savedTime > 0)
             {
                 StopTime();
-                //currentTime = 0;
+                currentTime = 0;
             }
             //PlayerPrefs.DeleteAll();
         } 
