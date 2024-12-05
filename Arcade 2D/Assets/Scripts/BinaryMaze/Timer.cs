@@ -146,7 +146,7 @@ public class Timer : MonoBehaviour
 
             if (savedTime > 0)
             {
-                StopTime();
+                //StopTime();
                 currentTime = 0;
             }
             //PlayerPrefs.DeleteAll();
