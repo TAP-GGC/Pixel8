@@ -116,9 +116,9 @@ public class Timer : MonoBehaviour
             if (savedTime > 0)
             {
                 //StopTime();
-                currentTime = 0;
+                //currentTime = 0;
             }
-            PlayerPrefs.DeleteAll();
+            //PlayerPrefs.DeleteAll();
         } 
         else if(SceneManager.GetActiveScene().buildIndex == 10)
         {
@@ -131,9 +131,9 @@ public class Timer : MonoBehaviour
             if (savedTime > 0)
             {
                 //StopTime();
-                currentTime = 0;
+                //currentTime = 0;
             }
-            //PlayerPrefs.DeleteAll();
+           // PlayerPrefs.DeleteAll();
             
         } 
         else if (SceneManager.GetActiveScene().buildIndex == 11)
@@ -147,13 +147,14 @@ public class Timer : MonoBehaviour
             if (savedTime > 0)
             {
                 //StopTime();
-                currentTime = 0;
+               // currentTime = 0;
             }
             //PlayerPrefs.DeleteAll();
         } 
         else
         {
             PlayerPrefs.DeleteAll();
+            currentTime = 0;
         }
     }
 
@@ -163,6 +164,7 @@ public class Timer : MonoBehaviour
         {
             StopTime();
             gameOver.EnableGameOver();
+            currentTime = 0;
         }
     }
 
