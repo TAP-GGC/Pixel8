@@ -159,8 +159,8 @@ https://github.com/user-attachments/assets/edf3e3c0-0e54-485c-8ec5-d30e205af1d9
 
 https://github.com/user-attachments/assets/a18c4a3c-b26f-428f-b2b2-1aa5e2396e88
 
-https://github.com/user-attachments/assets/27ccd3d6-3ae1-4e59-a7df-844dbe86ace1
-
+### How to upload a game on Itch.io
+[![How to upload game on website](https://github.com/user-attachments/assets/a5d955a5-573e-4089-b457-014a4844a28a)](https://youtu.be/Vhyj1q0lsEQ)
 
 ## Project Usage
 <i>Instructions for playing each game are provided within the game itself by utilizing the help buttons~!</i>
