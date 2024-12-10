@@ -39,20 +39,21 @@ You can select from a range of audiences or a single audience. Examples:
 * <b>Duration of Workshop:</b> 1 hour 
 
 * <b>Needed Materials:</b> Pencil, Paper, Calculator, Computer with internet access
-* <b>Learning Outcomes:</b> The primary goal of this project is to teach participants what binary is, what it is used for and how to convert from binary to decimal and from decimal to binary.
+* <b>Learning Outcomes:</b> The primary goal of this project is to teach participants what binary is, what it is used for, and how to convert from binary to decimal and from decimal to binary.
 * <b>Our Main Technology</b> : Unity with C#
   
 [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
-Pixel Arcade Commerical<br>
-[<img alt="Template Logo" src="https://img.itch.zone/aW1nLzE4MDk4MDYxLnBuZw==/original/YXx1l4.png" width="" height="250" />](https://www.youtube.com/watch?v=aLQnyCPmMPg)
-
 <!-- videos can also be dragged and dropped into markdown files if you want them embedded -->
 
-## Team: Pixel8
+## Pixel Arcade Commerical
 
+https://github.com/user-attachments/assets/f9a04ddb-020e-4321-bd47-5103fe54df62
+
+
+## Team: Pixel 8
 <!-- Use the team photo of your choice once you've uploaded it to the team photo folder within the media folder -->
 <img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/team%20photos/Pixel8_Team_Logo.jpg" width="" height="300">
 (Left to Right: Seohyeon Kim, Shianne Lesure, Celeste Echols, Zuberi Thompson)
@@ -108,7 +109,9 @@ Pixel Arcade Commerical<br>
 
 
 ## Similar Projects
-* If you're interested in more Unity workshops, you should check out projects like [Pizza Heist](https://github.com/TAP-GGC/TeamRocketPizza)! 
+*  [Pizza Heist (Unity)](https://github.com/TAP-GGC/TeamRocketPizza)
+*  [SliceIT (Unity)](https://github.com/TAP-GGC/SliceIT)
+*  [ProjectPythonVR (Unity)](https://github.com/TAP-GGC/ProjectPythonVR) 
 
 ## Technology
 <p align="center">
@@ -131,7 +134,7 @@ The project is built with Unity as the main technology. Unity is a popular cross
 </p>
 
 </p>
-Unity is a powerful game engine that makes it easy for developers to get a game up and running very quickly and smoothly. One of our team members already had prior knowledge of unity which made it a great option. C#, which is the programming language that unity uses, is also similar to java which is taught at GGC. We originally were going to make the game 3D which is another reason why we chose Unity. But ultimately, unity had more resources available for people learning how to use the game engine such as assets, videos, and documentation. 
+Unity is a powerful game engine that makes it easy for developers to get a game up and running very quickly and smoothly. One of our team members already had prior knowledge of unity which made it a great option. C#, which is the programming language that unity uses, is also similar to Java which is taught at GGC. We originally were going to make the game 3D which is another reason why we chose Unity. But ultimately, unity had more resources available for people learning how to use the game engine such as assets, videos, and documentation. 
 </p>
 
 ## Workshop Instructions 
@@ -146,13 +149,18 @@ Unity is a powerful game engine that makes it easy for developers to get a game 
 * Start by playing the assigned game.​
 
 * If you finish early, feel free to explore and play the RGB paint game.
+  
+## Game Demo
+
+https://github.com/user-attachments/assets/edf3e3c0-0e54-485c-8ec5-d30e205af1d9
+
 
 ## Project setup/Installation
-[![Installation](https://img.youtube.com/vi/DCd296jpmJo/0.jpg)](https://youtu.be/DCd296jpmJo)
 
-<i>For  instructions click the figure above</i>
-<br>
-[For more installation videos click here](https://www.youtube.com/watch?v=skBEu32hGTg)
+
+https://github.com/user-attachments/assets/a18c4a3c-b26f-428f-b2b2-1aa5e2396e88
+
+### [How to upload game onto Itch.io](https://www.youtube.com/watch?v=skBEu32hGTg)
 
 
 ## Project Usage
@@ -163,8 +171,8 @@ Unity is a powerful game engine that makes it easy for developers to get a game 
 * <b>Binary Maze:</b> There are three seperate levels for this game. The objective is to answer all the questions for each level while staying under 12 minutes for each level.
   * 1st level: Users must go through the maze to find and answer all 10 questions on the base power of 2 questions. There is a minimap that can be toggled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
   * 2nd level: Users must go through the maze to find and answer all 10 questions on binary conversion and decimal conversion using 4-bits. There is a minimap that can be toggeled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
-  * 3rd level: Users must go through the maze to find and answer all 10 questions on binary conversion and decimal conversion using 8-bits. There is a minimap that can be toggled. There is also a help button that pauses the in game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
+  * 3rd level: Users must go through the maze to find and answer all 10 questions on binary conversion and decimal conversion using 8-bits. There is a minimap that can be toggled. There is also a help button that pauses the in-game timer and provides further guidance. A level complete screen will pop up when users have correctly answered all questions and it will display the time it took to answer the questions on that level.
 
-* <b>Planet Binary:</b> Users are competing against an NPC(non-playable character), to answer all the questions and make it to the end of the board game. The questions include conceptual binary questions, conversions from binary to decimal and from decimal to binary using 4-bits and 8-bits, and lastly the base power of 2 questions. Users will roll the dice to determine how many spaces they can move if they get the answer correct. Then they can answer the question and see if they are allowed to move. The game ends when either the player or the NPC answers all the questions and reach the end. 
+* <b>Planet Binary:</b> Users are competing against an NPC(non-playable character), to answer all the questions and make it to the end of the board game. The questions include conceptual binary questions, conversions from binary to decimal and from decimal to binary using 4-bits and 8-bits, and lastly the base power of 2 questions. Users will roll the dice to determine how many spaces they can move if they get the answer correct. Then they can answer the question and see if they are allowed to move. The game ends when either the player or the NPC answers all the questions and reaches the end. 
 
 * <b>RGB Paint:</b> This game is an explorative, creative game that allows users to visually see how binary changes RGB colors. 
