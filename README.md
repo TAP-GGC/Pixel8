@@ -157,10 +157,9 @@ https://github.com/user-attachments/assets/edf3e3c0-0e54-485c-8ec5-d30e205af1d9
 
 ## Project setup/Installation
 
-
 https://github.com/user-attachments/assets/a18c4a3c-b26f-428f-b2b2-1aa5e2396e88
 
-### [How to upload game onto Itch.io](https://www.youtube.com/watch?v=skBEu32hGTg)
+https://github.com/user-attachments/assets/27ccd3d6-3ae1-4e59-a7df-844dbe86ace1
 
 
 ## Project Usage
