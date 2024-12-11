@@ -143,7 +143,7 @@ Unity is a powerful game engine that makes it easy for developers to get a game 
   
   [Click here for detailed instructions on the workshop](https://github.com/TAP-GGC/Pixel8/blob/main/documents/tutorial%20materials/Workshop%20Instructions.pdf)
 
-### Workshop Video
+## Workshop Video
   [![Workshop Video](https://github.com/user-attachments/assets/7e56ce5e-71c4-4ffa-b8e7-b9fdbcefc030)](https://youtu.be/qmx9AO-s2dM)
 
 ## Game Demo
