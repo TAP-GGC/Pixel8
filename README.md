@@ -142,13 +142,16 @@ Unity is a powerful game engine that makes it easy for developers to get a game 
 
   
   [Click here for detailed instructions on the workshop](https://github.com/TAP-GGC/Pixel8/blob/main/documents/tutorial%20materials/Workshop%20Instructions.pdf)
+
+  [![Workshop Video](https://github.com/user-attachments/assets/7e56ce5e-71c4-4ffa-b8e7-b9fdbcefc030)](https://youtu.be/qmx9AO-s2dM)
+
 ## Game Demo
 
 https://github.com/user-attachments/assets/edf3e3c0-0e54-485c-8ec5-d30e205af1d9
 
 
 ## Project setup/Installation
-
+### How to install Unity
 https://github.com/user-attachments/assets/a18c4a3c-b26f-428f-b2b2-1aa5e2396e88
 
 ### How to upload a game on Itch.io
