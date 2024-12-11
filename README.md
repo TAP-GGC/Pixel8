@@ -116,20 +116,9 @@ https://github.com/user-attachments/assets/f9a04ddb-020e-4321-bd47-5103fe54df62
 ## Technology
 <p align="center">
 <img alt="" src = "https://github.com/TAP-GGC/Pixel8/blob/main/media/technology/UnityLogoDark.png" width="200" height="100">
+  <h3 align ="center"><a href = "https://unity.com"><b>Unity's Website</b></a></h3>
 </p>
-<p align="center">
-<b>Unity's Website:</b> https://unity.com
-</p>
-
-<table>
-  <tr>
-    <h></h>
-  </tr>
-  <tr>
-    <h></h>
-  </tr>
-</table>
-
+<p>
 The project is built with Unity as the main technology. Unity is a popular cross-platform game engine used for developing 2D, 3D, AR, VR, and simulation-based projects. This technology was used to build an interactive 2D game that instruct participants about the basics of binary conversions and decimal conversions.  The game was posted online on itch.io so participants could play straight from the web which allows for easier access to the game for both our in-person and online participants.
 </p>
 
@@ -138,7 +127,7 @@ Unity is a powerful game engine that makes it easy for developers to get a game 
 </p>
 
 ## Workshop Instructions 
-* Go to [https://slesure.itch.io/pixel-arcade](https://slesure.itch.io/pixel-arcade)
+* Go to the [Pixel Arcade Website](https://slesure.itch.io/pixel-arcade)
 
 * Read the description under the game to understand the details.​
 
