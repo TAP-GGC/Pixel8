@@ -152,7 +152,7 @@ https://github.com/user-attachments/assets/edf3e3c0-0e54-485c-8ec5-d30e205af1d9
 
 
 ## Project setup/Installation
-### How to install Unity
+### How to install the project
 https://github.com/user-attachments/assets/a18c4a3c-b26f-428f-b2b2-1aa5e2396e88
 
 ### How to upload a game on Itch.io
