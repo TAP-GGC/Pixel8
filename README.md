@@ -139,6 +139,9 @@ Unity is a powerful game engine that makes it easy for developers to get a game 
 
 * If you finish early, feel free to explore and play the RGB paint game.
   
+
+  
+  [Click here for detailed instructions on the workshop](https://github.com/TAP-GGC/Pixel8/blob/main/documents/tutorial%20materials/Workshop%20Instructions.pdf)
 ## Game Demo
 
 https://github.com/user-attachments/assets/edf3e3c0-0e54-485c-8ec5-d30e205af1d9
