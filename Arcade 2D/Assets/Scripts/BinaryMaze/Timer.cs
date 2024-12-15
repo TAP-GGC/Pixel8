@@ -26,6 +26,7 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //PlayerPrefs.DeleteAll();
         stopWatchActive = true;
         currentTime = 0;
         Time.timeScale = 0.8f;
@@ -36,6 +37,7 @@ public class Timer : MonoBehaviour
         {
             gameOver.DisableGameOver();
         }
+
 
         //level.text = "";
         //gameTime.text = "";
@@ -55,7 +57,13 @@ public class Timer : MonoBehaviour
             {
                 GameOver();
             }
-        } 
+
+            if (currentTime >= 60) //720) // Example: if the timer reaches 12 mins
+            {
+                StopTime();
+            }
+        }
+
     }
 
     public void StopTime()
@@ -103,7 +111,7 @@ public class Timer : MonoBehaviour
             float savedTime = PlayerPrefs.GetFloat("Time1"); // Default to 0 if no data is found
             string savedTimeText = PlayerPrefs.GetString("Time1Text"); // Default format
 
-            currentTime = savedTime; // Restore the saved current time
+            currentTime = 0; // Restore the saved current time
             levelTime.text = "Time: " + savedTimeText; // Display the saved time
 
             //playerTime.Add(savedTimeText);
@@ -113,11 +121,7 @@ public class Timer : MonoBehaviour
             //playerSeconds.Add(PlayerPrefs.GetFloat("Time1"));
             //finalTime(playerTime, playerSeconds);
 
-            if (savedTime > 0)
-            {
-                //StopTime();
-                //currentTime = 0;
-            }
+           
             //PlayerPrefs.DeleteAll();
         } 
         else if(SceneManager.GetActiveScene().buildIndex == 10)
@@ -154,7 +158,7 @@ public class Timer : MonoBehaviour
         else
         {
             PlayerPrefs.DeleteAll();
-            currentTime = 0;
+            //currentTime = 0;
         }
     }
 
